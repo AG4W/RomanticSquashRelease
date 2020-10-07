@@ -1,0 +1,190 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void Mirror.Authenticators.BasicAuthenticator::OnStartServer()
+extern void BasicAuthenticator_OnStartServer_m961AA4DFA523BFA6C3373EF705546ED3A7814D27 (void);
+// 0x00000002 System.Void Mirror.Authenticators.BasicAuthenticator::OnStartClient()
+extern void BasicAuthenticator_OnStartClient_m24A2E359E117DDE83A58BAFB2DBB3DC5CFFBD703 (void);
+// 0x00000003 System.Void Mirror.Authenticators.BasicAuthenticator::OnServerAuthenticate(Mirror.NetworkConnection)
+extern void BasicAuthenticator_OnServerAuthenticate_m7567485C9298592A51CCB5D9680821EDF81EE605 (void);
+// 0x00000004 System.Void Mirror.Authenticators.BasicAuthenticator::OnClientAuthenticate(Mirror.NetworkConnection)
+extern void BasicAuthenticator_OnClientAuthenticate_m59558C67D17DF1B1CA346509AB6DD43897C826B6 (void);
+// 0x00000005 System.Void Mirror.Authenticators.BasicAuthenticator::OnAuthRequestMessage(Mirror.NetworkConnection,Mirror.Authenticators.BasicAuthenticator_AuthRequestMessage)
+extern void BasicAuthenticator_OnAuthRequestMessage_m1A9C48BE69F6671C25652DB912BDE6374F776A53 (void);
+// 0x00000006 System.Collections.IEnumerator Mirror.Authenticators.BasicAuthenticator::DelayedDisconnect(Mirror.NetworkConnection,System.Single)
+extern void BasicAuthenticator_DelayedDisconnect_mBCC23E41D1522953B672699D1C4EE51E52C7D409 (void);
+// 0x00000007 System.Void Mirror.Authenticators.BasicAuthenticator::OnAuthResponseMessage(Mirror.NetworkConnection,Mirror.Authenticators.BasicAuthenticator_AuthResponseMessage)
+extern void BasicAuthenticator_OnAuthResponseMessage_m1E2CC71611849A905F3A0FCCF6438497EDBAF6ED (void);
+// 0x00000008 System.Void Mirror.Authenticators.BasicAuthenticator::.ctor()
+extern void BasicAuthenticator__ctor_m16BA2D3BFDA573274622DDE2CF23A254F9E3AF97 (void);
+// 0x00000009 System.Void Mirror.Authenticators.BasicAuthenticator::.cctor()
+extern void BasicAuthenticator__cctor_mAC6679CF2B75F8300AE57BA957934C9089E19103 (void);
+// 0x0000000A System.Void Mirror.Authenticators.BasicAuthenticator_AuthRequestMessage::.ctor()
+extern void AuthRequestMessage__ctor_m5F13A7C2C4486FEF1A89B2003C49593D57AF7B76 (void);
+// 0x0000000B System.Void Mirror.Authenticators.BasicAuthenticator_AuthRequestMessage::Serialize(Mirror.NetworkWriter)
+extern void AuthRequestMessage_Serialize_m321E1FC839D5C1C9308605951DD0489C2E090544 (void);
+// 0x0000000C System.Void Mirror.Authenticators.BasicAuthenticator_AuthRequestMessage::Deserialize(Mirror.NetworkReader)
+extern void AuthRequestMessage_Deserialize_mF5974938BF37ADD3ED7F6BD54C59C75ADF94BE4C (void);
+// 0x0000000D System.Void Mirror.Authenticators.BasicAuthenticator_AuthResponseMessage::.ctor()
+extern void AuthResponseMessage__ctor_m7660AC4C42258FDE84F712E8C98D15A853E02568 (void);
+// 0x0000000E System.Void Mirror.Authenticators.BasicAuthenticator_AuthResponseMessage::Serialize(Mirror.NetworkWriter)
+extern void AuthResponseMessage_Serialize_m9F7CBE4F9BE7D9AFE663AF3274525BD277743421 (void);
+// 0x0000000F System.Void Mirror.Authenticators.BasicAuthenticator_AuthResponseMessage::Deserialize(Mirror.NetworkReader)
+extern void AuthResponseMessage_Deserialize_mDBE7A4D782F0F2DFFBDBDB589A0C2EFCF69EA259 (void);
+// 0x00000010 System.Void Mirror.Authenticators.BasicAuthenticator_<DelayedDisconnect>d__10::.ctor(System.Int32)
+extern void U3CDelayedDisconnectU3Ed__10__ctor_m6299CB9147435AF1E9935046F47389169DFB417A (void);
+// 0x00000011 System.Void Mirror.Authenticators.BasicAuthenticator_<DelayedDisconnect>d__10::System.IDisposable.Dispose()
+extern void U3CDelayedDisconnectU3Ed__10_System_IDisposable_Dispose_mBA46FD544045AC4D31C3C26080E33B246068078B (void);
+// 0x00000012 System.Boolean Mirror.Authenticators.BasicAuthenticator_<DelayedDisconnect>d__10::MoveNext()
+extern void U3CDelayedDisconnectU3Ed__10_MoveNext_m068A6EB38E0A100CE7FD4CB581FE91232102AD9B (void);
+// 0x00000013 System.Object Mirror.Authenticators.BasicAuthenticator_<DelayedDisconnect>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CDelayedDisconnectU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6D55420E1C4C7986891CEF8D17E0617DA6D65AEB (void);
+// 0x00000014 System.Void Mirror.Authenticators.BasicAuthenticator_<DelayedDisconnect>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CDelayedDisconnectU3Ed__10_System_Collections_IEnumerator_Reset_mE6B769C1A8BDC3FE65428A365D83CA546F53C7C9 (void);
+// 0x00000015 System.Object Mirror.Authenticators.BasicAuthenticator_<DelayedDisconnect>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CDelayedDisconnectU3Ed__10_System_Collections_IEnumerator_get_Current_m414986C1B65EE5AEF44CAA12815C0EA97BDA935F (void);
+// 0x00000016 System.Void Mirror.Authenticators.TimeoutAuthenticator::Awake()
+extern void TimeoutAuthenticator_Awake_m79C844E9B26BA045DAD194C312CEBCA11A6AA258 (void);
+// 0x00000017 System.Void Mirror.Authenticators.TimeoutAuthenticator::OnStartClient()
+extern void TimeoutAuthenticator_OnStartClient_m18B4ECE686F4DFE0DB710C4D3BD347260EE1FAD6 (void);
+// 0x00000018 System.Void Mirror.Authenticators.TimeoutAuthenticator::OnStartServer()
+extern void TimeoutAuthenticator_OnStartServer_mC129D9B19B76C2733D7C48A9E76ED42C4BD3B1F3 (void);
+// 0x00000019 System.Void Mirror.Authenticators.TimeoutAuthenticator::OnClientAuthenticate(Mirror.NetworkConnection)
+extern void TimeoutAuthenticator_OnClientAuthenticate_m3852CAFB005B84C2DD322E4B59FA7CF43CC2CE8B (void);
+// 0x0000001A System.Void Mirror.Authenticators.TimeoutAuthenticator::OnServerAuthenticate(Mirror.NetworkConnection)
+extern void TimeoutAuthenticator_OnServerAuthenticate_m831772504D5B85CE1343F69D67C10BAA4F74B840 (void);
+// 0x0000001B System.Collections.IEnumerator Mirror.Authenticators.TimeoutAuthenticator::BeginAuthentication(Mirror.NetworkConnection)
+extern void TimeoutAuthenticator_BeginAuthentication_mE508C72DF9DF550B8E0A4EF0FEC0A269659F958F (void);
+// 0x0000001C System.Void Mirror.Authenticators.TimeoutAuthenticator::.ctor()
+extern void TimeoutAuthenticator__ctor_mBC62D61ADC32BBBE1B7E28809C14332FDA9CCBC6 (void);
+// 0x0000001D System.Void Mirror.Authenticators.TimeoutAuthenticator::.cctor()
+extern void TimeoutAuthenticator__cctor_m17383F364ACB88826E8D0C3D22A5FFBDF7300AED (void);
+// 0x0000001E System.Void Mirror.Authenticators.TimeoutAuthenticator::<Awake>b__3_0(Mirror.NetworkConnection)
+extern void TimeoutAuthenticator_U3CAwakeU3Eb__3_0_m7B1E106DDC30F541623591284FC35672A9067F9D (void);
+// 0x0000001F System.Void Mirror.Authenticators.TimeoutAuthenticator::<Awake>b__3_1(Mirror.NetworkConnection)
+extern void TimeoutAuthenticator_U3CAwakeU3Eb__3_1_m8EF85EA02F1CEE32EE0A356AD079D63A62319202 (void);
+// 0x00000020 System.Void Mirror.Authenticators.TimeoutAuthenticator_<BeginAuthentication>d__8::.ctor(System.Int32)
+extern void U3CBeginAuthenticationU3Ed__8__ctor_mF82A685896AB829F0137DABB59C6730D7D5DDA55 (void);
+// 0x00000021 System.Void Mirror.Authenticators.TimeoutAuthenticator_<BeginAuthentication>d__8::System.IDisposable.Dispose()
+extern void U3CBeginAuthenticationU3Ed__8_System_IDisposable_Dispose_m47C381A779685D9AA8AF5B4958C38ED057845991 (void);
+// 0x00000022 System.Boolean Mirror.Authenticators.TimeoutAuthenticator_<BeginAuthentication>d__8::MoveNext()
+extern void U3CBeginAuthenticationU3Ed__8_MoveNext_m1CCE4C2CCB0AC34E91CD0C813E71637E0A41DA85 (void);
+// 0x00000023 System.Object Mirror.Authenticators.TimeoutAuthenticator_<BeginAuthentication>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CBeginAuthenticationU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAFF86DF4A16219F9F07EA5535BEB5643B549D3CD (void);
+// 0x00000024 System.Void Mirror.Authenticators.TimeoutAuthenticator_<BeginAuthentication>d__8::System.Collections.IEnumerator.Reset()
+extern void U3CBeginAuthenticationU3Ed__8_System_Collections_IEnumerator_Reset_mDD9B4721D709940004DFA72D72C6FCBB8C96DD57 (void);
+// 0x00000025 System.Object Mirror.Authenticators.TimeoutAuthenticator_<BeginAuthentication>d__8::System.Collections.IEnumerator.get_Current()
+extern void U3CBeginAuthenticationU3Ed__8_System_Collections_IEnumerator_get_Current_m4348F933A986BA51D7BE5A6EF3A4E421DE2CB24E (void);
+static Il2CppMethodPointer s_methodPointers[37] = 
+{
+	BasicAuthenticator_OnStartServer_m961AA4DFA523BFA6C3373EF705546ED3A7814D27,
+	BasicAuthenticator_OnStartClient_m24A2E359E117DDE83A58BAFB2DBB3DC5CFFBD703,
+	BasicAuthenticator_OnServerAuthenticate_m7567485C9298592A51CCB5D9680821EDF81EE605,
+	BasicAuthenticator_OnClientAuthenticate_m59558C67D17DF1B1CA346509AB6DD43897C826B6,
+	BasicAuthenticator_OnAuthRequestMessage_m1A9C48BE69F6671C25652DB912BDE6374F776A53,
+	BasicAuthenticator_DelayedDisconnect_mBCC23E41D1522953B672699D1C4EE51E52C7D409,
+	BasicAuthenticator_OnAuthResponseMessage_m1E2CC71611849A905F3A0FCCF6438497EDBAF6ED,
+	BasicAuthenticator__ctor_m16BA2D3BFDA573274622DDE2CF23A254F9E3AF97,
+	BasicAuthenticator__cctor_mAC6679CF2B75F8300AE57BA957934C9089E19103,
+	AuthRequestMessage__ctor_m5F13A7C2C4486FEF1A89B2003C49593D57AF7B76,
+	AuthRequestMessage_Serialize_m321E1FC839D5C1C9308605951DD0489C2E090544,
+	AuthRequestMessage_Deserialize_mF5974938BF37ADD3ED7F6BD54C59C75ADF94BE4C,
+	AuthResponseMessage__ctor_m7660AC4C42258FDE84F712E8C98D15A853E02568,
+	AuthResponseMessage_Serialize_m9F7CBE4F9BE7D9AFE663AF3274525BD277743421,
+	AuthResponseMessage_Deserialize_mDBE7A4D782F0F2DFFBDBDB589A0C2EFCF69EA259,
+	U3CDelayedDisconnectU3Ed__10__ctor_m6299CB9147435AF1E9935046F47389169DFB417A,
+	U3CDelayedDisconnectU3Ed__10_System_IDisposable_Dispose_mBA46FD544045AC4D31C3C26080E33B246068078B,
+	U3CDelayedDisconnectU3Ed__10_MoveNext_m068A6EB38E0A100CE7FD4CB581FE91232102AD9B,
+	U3CDelayedDisconnectU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m6D55420E1C4C7986891CEF8D17E0617DA6D65AEB,
+	U3CDelayedDisconnectU3Ed__10_System_Collections_IEnumerator_Reset_mE6B769C1A8BDC3FE65428A365D83CA546F53C7C9,
+	U3CDelayedDisconnectU3Ed__10_System_Collections_IEnumerator_get_Current_m414986C1B65EE5AEF44CAA12815C0EA97BDA935F,
+	TimeoutAuthenticator_Awake_m79C844E9B26BA045DAD194C312CEBCA11A6AA258,
+	TimeoutAuthenticator_OnStartClient_m18B4ECE686F4DFE0DB710C4D3BD347260EE1FAD6,
+	TimeoutAuthenticator_OnStartServer_mC129D9B19B76C2733D7C48A9E76ED42C4BD3B1F3,
+	TimeoutAuthenticator_OnClientAuthenticate_m3852CAFB005B84C2DD322E4B59FA7CF43CC2CE8B,
+	TimeoutAuthenticator_OnServerAuthenticate_m831772504D5B85CE1343F69D67C10BAA4F74B840,
+	TimeoutAuthenticator_BeginAuthentication_mE508C72DF9DF550B8E0A4EF0FEC0A269659F958F,
+	TimeoutAuthenticator__ctor_mBC62D61ADC32BBBE1B7E28809C14332FDA9CCBC6,
+	TimeoutAuthenticator__cctor_m17383F364ACB88826E8D0C3D22A5FFBDF7300AED,
+	TimeoutAuthenticator_U3CAwakeU3Eb__3_0_m7B1E106DDC30F541623591284FC35672A9067F9D,
+	TimeoutAuthenticator_U3CAwakeU3Eb__3_1_m8EF85EA02F1CEE32EE0A356AD079D63A62319202,
+	U3CBeginAuthenticationU3Ed__8__ctor_mF82A685896AB829F0137DABB59C6730D7D5DDA55,
+	U3CBeginAuthenticationU3Ed__8_System_IDisposable_Dispose_m47C381A779685D9AA8AF5B4958C38ED057845991,
+	U3CBeginAuthenticationU3Ed__8_MoveNext_m1CCE4C2CCB0AC34E91CD0C813E71637E0A41DA85,
+	U3CBeginAuthenticationU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAFF86DF4A16219F9F07EA5535BEB5643B549D3CD,
+	U3CBeginAuthenticationU3Ed__8_System_Collections_IEnumerator_Reset_mDD9B4721D709940004DFA72D72C6FCBB8C96DD57,
+	U3CBeginAuthenticationU3Ed__8_System_Collections_IEnumerator_get_Current_m4348F933A986BA51D7BE5A6EF3A4E421DE2CB24E,
+};
+static const int32_t s_InvokerIndices[37] = 
+{
+	23,
+	23,
+	26,
+	26,
+	27,
+	2634,
+	27,
+	23,
+	3,
+	23,
+	26,
+	26,
+	23,
+	26,
+	26,
+	32,
+	23,
+	89,
+	14,
+	23,
+	14,
+	23,
+	23,
+	23,
+	26,
+	26,
+	28,
+	23,
+	3,
+	26,
+	26,
+	32,
+	23,
+	89,
+	14,
+	23,
+	14,
+};
+extern const Il2CppCodeGenModule g_Mirror_AuthenticatorsCodeGenModule;
+const Il2CppCodeGenModule g_Mirror_AuthenticatorsCodeGenModule = 
+{
+	"Mirror.Authenticators.dll",
+	37,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
