@@ -42,6 +42,8 @@
 		<type fullname="UnityEngine.BoxCollider" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.RectTransform" preserve="nothing"/>
+		<type fullname="UnityEngine.VFX.VisualEffect" preserve="nothing"/>
+		<type fullname="UnityEngine.VFX.VFXRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.RuntimeAnimatorController" preserve="nothing"/>
 		<type fullname="UnityEngine.Motion" preserve="nothing"/>
 		<type fullname="UnityEngine.Avatar" preserve="nothing"/>
@@ -53,6 +55,7 @@
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
 		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.VFX.VisualEffectAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.LightProbeGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Audio.AudioMixer" preserve="nothing"/>
@@ -60,6 +63,7 @@
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.Audio.AudioMixerSnapshot" preserve="nothing"/>
+		<type fullname="UnityEngine.VFX.VisualEffectObject" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Actor" preserve="nothing"/>
@@ -68,6 +72,7 @@
 		<type fullname="ModelComponent" preserve="nothing"/>
 		<type fullname="MoveState" preserve="nothing"/>
 		<type fullname="PilotState" preserve="nothing"/>
+		<type fullname="ProjectileEntity" preserve="nothing"/>
 		<type fullname="RudderComponent" preserve="nothing"/>
 		<type fullname="ShipComponentData" preserve="nothing"/>
 		<type fullname="TurretWeaponState" preserve="nothing"/>

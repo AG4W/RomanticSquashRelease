@@ -1085,6 +1085,15 @@ public:
 };
 
 
+// UnityEngine.Renderer
+struct  Renderer_t58147AB5B00224FE1460FD47542DC0DA7EC9378C  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.VFX.VFXSpawnerCallbacks
 struct  VFXSpawnerCallbacks_t62128B7E3ADA64EBEA4705691DE0F045104801CA  : public ScriptableObject_t4361E08CEBF052C650D3666C7CEC37EB31DE116A
 {
@@ -1174,6 +1183,15 @@ public:
 		___onPostRender_6 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___onPostRender_6), (void*)value);
 	}
+};
+
+
+// UnityEngine.VFX.VFXRenderer
+struct  VFXRenderer_t4C81CB844B1A2DA17B517D9EDF040C718FAC90F4  : public Renderer_t58147AB5B00224FE1460FD47542DC0DA7EC9378C
+{
+public:
+
+public:
 };
 
 
@@ -1391,6 +1409,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VFXManager_SetCameraBuffer_m6A06A0FF700B
 	_il2cpp_icall_func = (VFXManager_SetCameraBuffer_m6A06A0FF700BDBC9ADEAF25F11640CF923B5C99A_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.VFX.VFXManager::SetCameraBuffer(UnityEngine.Camera,UnityEngine.VFX.VFXCameraBufferTypes,UnityEngine.Texture,System.Int32,System.Int32,System.Int32,System.Int32)");
 	_il2cpp_icall_func(___cam0, ___type1, ___buffer2, ___x3, ___y4, ___width5, ___height6);
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

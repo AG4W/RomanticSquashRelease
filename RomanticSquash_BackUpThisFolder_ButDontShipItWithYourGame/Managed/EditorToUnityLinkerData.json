@@ -135,7 +135,9 @@
             "nativeClass": "ComputeShader",
             "fullManagedTypeName": "UnityEngine.ComputeShader",
             "moduleName": "Core",
-            "usedInScenes": []
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene/SampleScene.unity"
+            ]
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -440,6 +442,24 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VisualEffect",
+            "fullManagedTypeName": "UnityEngine.VFX.VisualEffect",
+            "moduleName": "VFX",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VFXRenderer",
+            "fullManagedTypeName": "UnityEngine.VFX.VFXRenderer",
+            "moduleName": "VFX",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "RuntimeAnimatorController",
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
@@ -539,6 +559,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VisualEffectAsset",
+            "fullManagedTypeName": "UnityEngine.VFX.VisualEffectAsset",
+            "moduleName": "VFX",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene/SampleScene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "LightProbeGroup",
             "fullManagedTypeName": "UnityEngine.LightProbeGroup",
             "moduleName": "Core",
@@ -628,6 +657,15 @@
             ]
         },
         {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "VisualEffectObject",
+            "fullManagedTypeName": "UnityEngine.VFX.VisualEffectObject",
+            "moduleName": "VFX",
+            "usedInScenes": [
+                "Assets/Scenes/SampleScene/SampleScene.unity"
+            ]
+        },
+        {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Actor",
@@ -666,6 +704,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "PilotState",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ProjectileEntity",
             "moduleName": "",
             "usedInScenes": []
         },
