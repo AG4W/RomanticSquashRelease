@@ -1455,7 +1455,6 @@ IL2CPP_EXTERN_C const uint32_t AggregateException__ctor_m8E6793E83C302D0CAFAF497
 IL2CPP_EXTERN_C const uint32_t AggregateException__ctor_m954454223A814C931AEE3CB766F4AEF77A3B643E_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AggregateException__ctor_m9A3EC8C177CC1E6F04AC19EDE79E5367E82F3042_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AggregateException__ctor_mA8B0847E655131803DD45B590E6701FCE1288F66_MetadataUsageId;
-IL2CPP_EXTERN_C const uint32_t AggregateException_get_InnerExceptionCount_m39CB47C58B43F0537ABE9C187D7D367979C06CED_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AmbiguousMatchException__ctor_mB1D1FC9673360945BF0244AF2F6B5A6A5E8A09A6_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AppDomainLevelActivator_Activate_m42E1F68BB9ED9F2095110C5E956B584036637665_MetadataUsageId;
 IL2CPP_EXTERN_C const uint32_t AppDomainUnloadedException__ctor_m538A134AF62A8FABA5CC6DCDFA2F561A70E2CCB3_MetadataUsageId;
@@ -28023,22 +28022,6 @@ IL_0063:
 		return L_25;
 	}
 }
-// System.Int32 System.AggregateException::get_InnerExceptionCount()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AggregateException_get_InnerExceptionCount_m39CB47C58B43F0537ABE9C187D7D367979C06CED (AggregateException_t45A871D3DBDA3E28FBCD8DF21F6772238FC55BD1 * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_method (AggregateException_get_InnerExceptionCount_m39CB47C58B43F0537ABE9C187D7D367979C06CED_MetadataUsageId);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		ReadOnlyCollection_1_t06CAAF5787D8FDE0CB0F04082673EC9B212451BE * L_0 = AggregateException_get_InnerExceptions_m2020FC3A2334DDB72FEBFB2BF4CFE088FF83FEFE_inline(__this, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		int32_t L_1 = ReadOnlyCollection_1_get_Count_m95D66C3D4F27B0911596D60D79CFA46BFEA96F97(L_0, /*hidden argument*/ReadOnlyCollection_1_get_Count_m95D66C3D4F27B0911596D60D79CFA46BFEA96F97_RuntimeMethod_var);
-		return L_1;
-	}
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -28714,7 +28697,7 @@ IL_005a:
 		{
 			ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * L_18 = V_0;
 			NullCheck(L_18);
-			DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_19 = VirtFuncInvoker0< DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* >::Invoke(9 /* System.Delegate[] System.Delegate::GetInvocationList() */, L_18);
+			DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_19 = VirtFuncInvoker0< DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* >::Invoke(10 /* System.Delegate[] System.Delegate::GetInvocationList() */, L_18);
 			V_2 = L_19;
 			V_3 = 0;
 			goto IL_0090;
@@ -28880,7 +28863,7 @@ IL_0039:
 		{
 			ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * L_11 = __this->get_TypeResolve_16();
 			NullCheck(L_11);
-			DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_12 = VirtFuncInvoker0< DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* >::Invoke(9 /* System.Delegate[] System.Delegate::GetInvocationList() */, L_11);
+			DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_12 = VirtFuncInvoker0< DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* >::Invoke(10 /* System.Delegate[] System.Delegate::GetInvocationList() */, L_11);
 			V_2 = L_12;
 			V_3 = 0;
 			goto IL_0073;
@@ -28990,7 +28973,7 @@ IL_000a:
 	{
 		ResolveEventHandler_tC6827B550D5B6553B57571630B1EE01AC12A1089 * L_1 = __this->get_ResourceResolve_15();
 		NullCheck(L_1);
-		DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_2 = VirtFuncInvoker0< DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* >::Invoke(9 /* System.Delegate[] System.Delegate::GetInvocationList() */, L_1);
+		DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_2 = VirtFuncInvoker0< DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* >::Invoke(10 /* System.Delegate[] System.Delegate::GetInvocationList() */, L_1);
 		V_0 = L_2;
 		V_1 = 0;
 		goto IL_003f;

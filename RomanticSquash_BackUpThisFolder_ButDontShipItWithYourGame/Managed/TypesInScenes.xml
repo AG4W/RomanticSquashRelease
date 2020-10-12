@@ -58,27 +58,33 @@
 		<type fullname="UnityEngine.VFX.VisualEffectAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.LightProbeGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
-		<type fullname="UnityEngine.Audio.AudioMixer" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
-		<type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="nothing"/>
-		<type fullname="UnityEngine.Audio.AudioMixerSnapshot" preserve="nothing"/>
 		<type fullname="UnityEngine.VFX.VisualEffectObject" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="Assembly-CSharp-firstpass">
+		<type fullname="FMODUnity.Settings" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="Actor" preserve="nothing"/>
+		<type fullname="CameraController" preserve="nothing"/>
 		<type fullname="CustomNetworkManager" preserve="nothing"/>
 		<type fullname="IdleState" preserve="nothing"/>
+		<type fullname="InteractableController" preserve="nothing"/>
+		<type fullname="LookoutState" preserve="nothing"/>
 		<type fullname="ModelComponent" preserve="nothing"/>
 		<type fullname="MoveState" preserve="nothing"/>
 		<type fullname="PilotState" preserve="nothing"/>
+		<type fullname="PostProcessingController" preserve="nothing"/>
 		<type fullname="ProjectileEntity" preserve="nothing"/>
 		<type fullname="RudderComponent" preserve="nothing"/>
+		<type fullname="ShipComponent" preserve="nothing"/>
 		<type fullname="ShipComponentData" preserve="nothing"/>
 		<type fullname="TurretWeaponState" preserve="nothing"/>
 		<type fullname="VehicleController" preserve="nothing"/>
 		<type fullname="WeaponComponent" preserve="nothing"/>
 		<type fullname="WeaponData" preserve="nothing"/>
+		<type fullname="WeaponModelComponent" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Mirror.Components">
 		<type fullname="Mirror.NetworkTransform" preserve="nothing"/>
@@ -124,6 +130,7 @@
 		<type fullname="UnityEngine.Rendering.HighDefinition.ContactShadows" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.DiffusionProfileSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.Exposure" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.HighDefinition.FilmGrain" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.Fog" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.HDAdditionalCameraData" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.HDAdditionalLightData" preserve="nothing"/>
@@ -131,6 +138,7 @@
 		<type fullname="UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.HDRenderPipelineEditorResources" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.HDShadowSettings" preserve="nothing"/>
+		<type fullname="UnityEngine.Rendering.HighDefinition.LensDistortion" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.MotionBlur" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.RenderPipelineResources" preserve="nothing"/>
 		<type fullname="UnityEngine.Rendering.HighDefinition.SceneObjectIDMapSceneAsset" preserve="nothing"/>
@@ -142,6 +150,8 @@
 		<type fullname="UnityEngine.Rendering.HighDefinition.WhiteBalance" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
+		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>
+		<type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Button" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.CanvasScaler" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ContentSizeFitter" preserve="nothing"/>
@@ -150,6 +160,7 @@
 		<type fullname="UnityEngine.UI.Image" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.LayoutElement" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Mask" preserve="nothing"/>
+		<type fullname="UnityEngine.UI.Outline" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.ScrollRect" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Scrollbar" preserve="nothing"/>
 		<type fullname="UnityEngine.UI.Text" preserve="nothing"/>

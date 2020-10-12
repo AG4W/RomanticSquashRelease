@@ -585,15 +585,6 @@
             ]
         },
         {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioMixer",
-            "fullManagedTypeName": "UnityEngine.Audio.AudioMixer",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
-            ]
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "LevelGameManager",
             "fullManagedTypeName": "",
@@ -630,24 +621,6 @@
             ]
         },
         {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioMixerGroup",
-            "fullManagedTypeName": "UnityEngine.Audio.AudioMixerGroup",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioMixerSnapshot",
-            "fullManagedTypeName": "UnityEngine.Audio.AudioMixerSnapshot",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
-            ]
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "SampleClip",
             "fullManagedTypeName": "",
@@ -666,9 +639,23 @@
             ]
         },
         {
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "FMODUnity.Settings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Actor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "CameraController",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -683,6 +670,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "IdleState",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "InteractableController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "LookoutState",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -710,6 +711,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "PostProcessingController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "ProjectileEntity",
             "moduleName": "",
             "usedInScenes": []
@@ -718,6 +726,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "RudderComponent",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ShipComponent",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -753,6 +768,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "WeaponData",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "WeaponModelComponent",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1018,6 +1040,13 @@
         {
             "managedAssemblyName": "Unity.RenderPipelines.HighDefinition.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.HighDefinition.FilmGrain",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.HighDefinition.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.HighDefinition.Fog",
             "moduleName": "",
             "usedInScenes": []
@@ -1061,6 +1090,13 @@
             "managedAssemblyName": "Unity.RenderPipelines.HighDefinition.Runtime.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.Rendering.HighDefinition.HDShadowSettings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.RenderPipelines.HighDefinition.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Rendering.HighDefinition.LensDistortion",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1130,6 +1166,20 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.EventSystems.StandaloneInputModule",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.Button",
             "moduleName": "",
             "usedInScenes": []
@@ -1180,6 +1230,13 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.Mask",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Outline",
             "moduleName": "",
             "usedInScenes": []
         },

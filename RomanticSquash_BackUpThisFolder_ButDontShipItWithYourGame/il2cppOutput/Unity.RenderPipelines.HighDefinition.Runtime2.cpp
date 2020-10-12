@@ -816,12 +816,9 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1A8942A614774E48B111F2EE17BA287DB51774FA
 IL2CPP_EXTERN_C String_t* _stringLiteral1D1194F9E73AEC7417A305E7A13F51CAB8CCE56E;
 IL2CPP_EXTERN_C String_t* _stringLiteral1E6DF0ECAC5C11137E06B093CCE5BE113479CAF1;
 IL2CPP_EXTERN_C String_t* _stringLiteral1E85A487B935B34397CD9C893A16795A0977E28E;
-IL2CPP_EXTERN_C String_t* _stringLiteral20A021B97C9931F5C27C49B5FC481EC6864C1123;
 IL2CPP_EXTERN_C String_t* _stringLiteral266CC084B2CB6BB51001A911DCDC5F1C7A54D704;
-IL2CPP_EXTERN_C String_t* _stringLiteral26B26540536D372D9239279707CEFCFEE9BF5CC5;
 IL2CPP_EXTERN_C String_t* _stringLiteral2B6D6F48C27C60C3B55391AB377D9DC8F5639AA1;
 IL2CPP_EXTERN_C String_t* _stringLiteral49D529B6648C038B5F458453C2CF7D40C12FB850;
-IL2CPP_EXTERN_C String_t* _stringLiteral4C171F6E72234024C2570766177177D02002D866;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F04CAF22D4ADF6A1B51549967E3C7394F6793C7;
 IL2CPP_EXTERN_C String_t* _stringLiteral56FC5BFB80BDC363D61D09E189E3897469C92E8F;
 IL2CPP_EXTERN_C String_t* _stringLiteral5713BBE428E3EFB50CE31BC55F913E3D79D31C04;
@@ -832,7 +829,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral7132F6CB97865777E74D4B047BEAD3556C50130E
 IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D;
 IL2CPP_EXTERN_C String_t* _stringLiteral76352F1F40A0261C2745E26371AEBB0152B474F3;
 IL2CPP_EXTERN_C String_t* _stringLiteral82AAB2AAA880996241F14027A37D7AAD88C390B7;
-IL2CPP_EXTERN_C String_t* _stringLiteral834535C109191EC46A2B8487852130F7172D4080;
 IL2CPP_EXTERN_C String_t* _stringLiteral8C93A1B1F7C57A11949443DEAA63B316A3DC57DB;
 IL2CPP_EXTERN_C String_t* _stringLiteralA0CEEF828041B7C8A3264390067AC3CC12441F1B;
 IL2CPP_EXTERN_C String_t* _stringLiteralA23AA51E8BFF22B5720435D081EDECA1F16B11DA;
@@ -844,7 +840,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB77C95D8231F65AF421750F1A78742439B77ADA3
 IL2CPP_EXTERN_C String_t* _stringLiteralBC403799E125C4A40D39F8890E77274C90D9F693;
 IL2CPP_EXTERN_C String_t* _stringLiteralEA35DA193CB75FB0F1832C6C87F2101950CB5941;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7;
-IL2CPP_EXTERN_C String_t* _stringLiteralFD9F07BA5A1F0803FE1C94C116935DA67BB69D1C;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m016E622E544A798CE2A593BCD38395ADB80FA224_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m7F69575E99C4695901FCFA50001CAF9CAD0B5FBF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mCF0BC25151CB5F438C5027D9391121B3A938D16A_RuntimeMethod_var;
@@ -966,7 +961,6 @@ IL2CPP_EXTERN_C const RuntimeType* DirectionalLightUnit_t105DF8326E73EC61D1C02B4
 IL2CPP_EXTERN_C const RuntimeType* GradientSkyRenderer_tDA86C6C1AFFF60D282340B3A7CF8FA0179C09F75_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* HDLightType_tE8FFA61A42F9AAD7B485E4F53A3926EAEA20CA59_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Level_t80854014E1372C3C7DA1139B8A7E407DFCCA4FDE_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* LightType_tAD5FBE55DEE7A9C38A42323701B0BDD716761B14_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* MeshFilter_t763BB2BBF3881176AD25E4570E6DD215BA0AA51A_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* MeshRenderer_tCD983A2F635E12BCB0BAA2E635D96A318757908B_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* ProbeType_t0644BC75F598AEC85ED463D39D7121534858E332_0_0_0_var;
@@ -13431,81 +13425,17 @@ struct ZonalHarmonicsL2_tB48101431532862BC44B23E22E938BC01919D0C6_marshaled_com
 struct  ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A 
 {
 public:
-	// System.String UnityEngine.Rendering.ProfilingScope::m_Name
-	String_t* ___m_Name_0;
-	// UnityEngine.Rendering.CommandBuffer UnityEngine.Rendering.ProfilingScope::m_Cmd
-	CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 * ___m_Cmd_1;
-	// System.Boolean UnityEngine.Rendering.ProfilingScope::m_Disposed
-	bool ___m_Disposed_2;
-	// UnityEngine.Profiling.CustomSampler UnityEngine.Rendering.ProfilingScope::m_Sampler
-	CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * ___m_Sampler_3;
-	// UnityEngine.Profiling.CustomSampler UnityEngine.Rendering.ProfilingScope::m_InlineSampler
-	CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * ___m_InlineSampler_4;
+	union
+	{
+		struct
+		{
+		};
+		uint8_t ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A__padding[1];
+	};
 
 public:
-	inline static int32_t get_offset_of_m_Name_0() { return static_cast<int32_t>(offsetof(ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A, ___m_Name_0)); }
-	inline String_t* get_m_Name_0() const { return ___m_Name_0; }
-	inline String_t** get_address_of_m_Name_0() { return &___m_Name_0; }
-	inline void set_m_Name_0(String_t* value)
-	{
-		___m_Name_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_Name_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_m_Cmd_1() { return static_cast<int32_t>(offsetof(ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A, ___m_Cmd_1)); }
-	inline CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 * get_m_Cmd_1() const { return ___m_Cmd_1; }
-	inline CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 ** get_address_of_m_Cmd_1() { return &___m_Cmd_1; }
-	inline void set_m_Cmd_1(CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 * value)
-	{
-		___m_Cmd_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_Cmd_1), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_m_Disposed_2() { return static_cast<int32_t>(offsetof(ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A, ___m_Disposed_2)); }
-	inline bool get_m_Disposed_2() const { return ___m_Disposed_2; }
-	inline bool* get_address_of_m_Disposed_2() { return &___m_Disposed_2; }
-	inline void set_m_Disposed_2(bool value)
-	{
-		___m_Disposed_2 = value;
-	}
-
-	inline static int32_t get_offset_of_m_Sampler_3() { return static_cast<int32_t>(offsetof(ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A, ___m_Sampler_3)); }
-	inline CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * get_m_Sampler_3() const { return ___m_Sampler_3; }
-	inline CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 ** get_address_of_m_Sampler_3() { return &___m_Sampler_3; }
-	inline void set_m_Sampler_3(CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * value)
-	{
-		___m_Sampler_3 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_Sampler_3), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_m_InlineSampler_4() { return static_cast<int32_t>(offsetof(ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A, ___m_InlineSampler_4)); }
-	inline CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * get_m_InlineSampler_4() const { return ___m_InlineSampler_4; }
-	inline CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 ** get_address_of_m_InlineSampler_4() { return &___m_InlineSampler_4; }
-	inline void set_m_InlineSampler_4(CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * value)
-	{
-		___m_InlineSampler_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___m_InlineSampler_4), (void*)value);
-	}
 };
 
-// Native definition for P/Invoke marshalling of UnityEngine.Rendering.ProfilingScope
-struct ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A_marshaled_pinvoke
-{
-	char* ___m_Name_0;
-	CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 * ___m_Cmd_1;
-	int32_t ___m_Disposed_2;
-	CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * ___m_Sampler_3;
-	CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * ___m_InlineSampler_4;
-};
-// Native definition for COM marshalling of UnityEngine.Rendering.ProfilingScope
-struct ProfilingScope_t91B447FE94D2D35D6E522C8F49E2F1578618705A_marshaled_com
-{
-	Il2CppChar* ___m_Name_0;
-	CommandBuffer_t25CD231BD3E822660339DB7D0E8F8ED6B7DBEA29 * ___m_Cmd_1;
-	int32_t ___m_Disposed_2;
-	CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * ___m_Sampler_3;
-	CustomSampler_t464F8FB81386C2E6570FF8DE7346A2BBF8FA9F24 * ___m_InlineSampler_4;
-};
 
 // UnityEngine.Rendering.RenderTargetBlendState
 struct  RenderTargetBlendState_tEFCC998AB00112AFCC263503C4F52E9F32048DBD 
@@ -36099,8 +36029,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float HDAdditionalLightData_get_a
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightDataGI_Init_m34EDBFB002C6C7DA1B6AE4E7D448E457101DBB6D (LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * __this, SpotLightPyramidShape_tF7D7C854A600EEA31E8F6FB80B0D89CEC5731067 * ___light0, Cookie_tEC43B52DA6FD8E9BFF0B54D063671606E01E039B * ___cookie1, const RuntimeMethod* method);
 // System.Void UnityEngine.Experimental.GlobalIllumination.LightDataGI::Init(UnityEngine.Experimental.GlobalIllumination.SpotLightBoxShape&,UnityEngine.Experimental.GlobalIllumination.Cookie&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightDataGI_Init_m54F8C77402E062EE7F93CA14F6C834ED1E7A9A14 (LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * __this, SpotLightBoxShape_t084BDA90FC63BDDA1BF30CEC9D122982E3A87E1A * ___light0, Cookie_tEC43B52DA6FD8E9BFF0B54D063671606E01E039B * ___cookie1, const RuntimeMethod* method);
-// System.Void UnityEngine.Debug::Assert(System.Boolean,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Assert_m28EC098B41C037ED14C42FE47D0E5355CD2437F5 (bool ___condition0, String_t* ___message1, const RuntimeMethod* method);
 // UnityEngine.Rendering.HighDefinition.AreaLightShape UnityEngine.Rendering.HighDefinition.HDAdditionalLightData::get_areaLightShape()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t HDAdditionalLightData_get_areaLightShape_mF5EE4868860F97C925D87A22D50E4C692525676B_inline (HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * __this, const RuntimeMethod* method);
 // UnityEngine.Texture UnityEngine.Rendering.HighDefinition.HDAdditionalLightData::get_areaLightCookie()
@@ -36278,8 +36206,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HDAdditionalLightData_get_type_m929F2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_type_mD68B010AE47ECDDF9C13D9F99F13EB69E9A9F7F4 (Light_tA2F349FE839781469A0344CF6039B51512394275 * __this, int32_t ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Rendering.HighDefinition.HDAdditionalLightData::ResolveAreaShape()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HDAdditionalLightData_ResolveAreaShape_mB25AF4A8264E8B0D6E9BD6ECA1632BFD0241C323 (HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * __this, const RuntimeMethod* method);
-// System.String System.String::Format(System.String,System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66 (String_t* ___format0, RuntimeObject * ___arg01, RuntimeObject * ___arg12, const RuntimeMethod* method);
 // UnityEngine.Rendering.HighDefinition.LightUnit[] UnityEngine.Rendering.HighDefinition.HDAdditionalLightData::GetSupportedLightUnits(UnityEngine.Rendering.HighDefinition.HDLightType,UnityEngine.Rendering.HighDefinition.SpotLightShape)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LightUnitU5BU5D_t793486F5958A86545E758671CDC18B884E93C13E* HDAdditionalLightData_GetSupportedLightUnits_m2630F25F67C61FA7D47B781CDB6DCBB3D7AAD44B (int32_t ___type0, int32_t ___spotLightShape1, const RuntimeMethod* method);
 // System.Void System.Func`2<UnityEngine.Rendering.HighDefinition.LightUnit,System.Boolean>::.ctor(System.Object,System.IntPtr)
@@ -36307,6 +36233,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HDAdditionalLightData_set_type_m483138EE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HDAdditionalLightData_set_spotLightShape_mB02975FC39BBADE93BF2EEE8D3AA9335849A37EC (HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * __this, int32_t ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.Rendering.HighDefinition.HDAdditionalLightData::set_areaLightShape(UnityEngine.Rendering.HighDefinition.AreaLightShape)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HDAdditionalLightData_set_areaLightShape_m011F5DCBE3EEEB6852DEB415A0CC2446B0032DF2 (HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * __this, int32_t ___value0, const RuntimeMethod* method);
+// System.String System.String::Format(System.String,System.Object,System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66 (String_t* ___format0, RuntimeObject * ___arg01, RuntimeObject * ___arg12, const RuntimeMethod* method);
 // System.Void System.Exception::.ctor(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m8ECDE8ACA7F2E0EF1144BD1200FB5DB2870B5F11 (Exception_t * __this, String_t* ___message0, const RuntimeMethod* method);
 // System.String System.String::Format(System.String,System.Object)
@@ -37813,26 +37741,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GlobalIlluminationUtils_LightDataGIExtra
 	SpotLightPyramidShape_tF7D7C854A600EEA31E8F6FB80B0D89CEC5731067 * G_B23_0 = NULL;
 	int32_t G_B25_0 = 0;
 	SpotLightPyramidShape_tF7D7C854A600EEA31E8F6FB80B0D89CEC5731067 * G_B25_1 = NULL;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B30_0 = NULL;
 	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B29_0 = NULL;
-	int32_t G_B31_0 = 0;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B31_1 = NULL;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B36_0 = NULL;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B28_0 = NULL;
+	int32_t G_B30_0 = 0;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B30_1 = NULL;
 	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B35_0 = NULL;
-	int32_t G_B37_0 = 0;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B37_1 = NULL;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B39_0 = NULL;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B34_0 = NULL;
+	int32_t G_B36_0 = 0;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B36_1 = NULL;
 	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B38_0 = NULL;
-	int32_t G_B40_0 = 0;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B40_1 = NULL;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B44_0 = NULL;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B37_0 = NULL;
+	int32_t G_B39_0 = 0;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B39_1 = NULL;
 	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B43_0 = NULL;
-	int32_t G_B45_0 = 0;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B45_1 = NULL;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B47_0 = NULL;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B42_0 = NULL;
+	int32_t G_B44_0 = 0;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B44_1 = NULL;
 	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B46_0 = NULL;
-	int32_t G_B48_0 = 0;
-	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B48_1 = NULL;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B45_0 = NULL;
+	int32_t G_B47_0 = 0;
+	LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * G_B47_1 = NULL;
 	{
 		// var add = light.GetComponent<HDAdditionalLightData>();
 		Light_tA2F349FE839781469A0344CF6039B51512394275 * L_0 = ___light0;
@@ -38071,16 +37999,16 @@ IL_01b4:
 			}
 			case 2:
 			{
-				goto IL_0497;
+				goto IL_0487;
 			}
 			case 3:
 			{
-				goto IL_050f;
+				goto IL_04ff;
 			}
 		}
 	}
 	{
-		goto IL_067c;
+		goto IL_065d;
 	}
 
 IL_01d0:
@@ -38141,7 +38069,7 @@ IL_01d0:
 		float L_109 = HDAdditionalLightData_get_shapeHeight_m837C3C6578BEC07B3B9406926536665DD74E6574_inline(L_108, /*hidden argument*/NULL);
 		L_107->set_innerConeAngle_9(L_109);
 		// break;
-		goto IL_0687;
+		goto IL_065d;
 	}
 
 IL_0256:
@@ -38169,7 +38097,7 @@ IL_0256:
 		}
 	}
 	{
-		goto IL_0487;
+		goto IL_065d;
 	}
 
 IL_0276:
@@ -38262,7 +38190,7 @@ IL_0325:
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_137 = ___lightDataGI1;
 		L_137->set_shape1_11((1.0f));
 		// break;
-		goto IL_0687;
+		goto IL_065d;
 	}
 
 IL_034c:
@@ -38345,7 +38273,7 @@ IL_03e2:
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_159 = ___lightDataGI1;
 		LightDataGI_Init_m34EDBFB002C6C7DA1B6AE4E7D448E457101DBB6D((LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 *)L_159, (SpotLightPyramidShape_tF7D7C854A600EEA31E8F6FB80B0D89CEC5731067 *)(&V_9), (Cookie_tEC43B52DA6FD8E9BFF0B54D063671606E01E039B *)(&V_1), /*hidden argument*/NULL);
 		// break;
-		goto IL_0687;
+		goto IL_065d;
 	}
 
 IL_03f6:
@@ -38402,19 +38330,10 @@ IL_03f6:
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_179 = ___lightDataGI1;
 		LightDataGI_Init_m54F8C77402E062EE7F93CA14F6C834ED1E7A9A14((LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 *)L_179, (SpotLightBoxShape_t084BDA90FC63BDDA1BF30CEC9D122982E3A87E1A *)(&V_10), (Cookie_tEC43B52DA6FD8E9BFF0B54D063671606E01E039B *)(&V_1), /*hidden argument*/NULL);
 		// break;
-		goto IL_0687;
+		goto IL_065d;
 	}
 
 IL_0487:
-	{
-		// Debug.Assert(false, "Encountered an unknown SpotLightShape.");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Assert_m28EC098B41C037ED14C42FE47D0E5355CD2437F5((bool)0, _stringLiteral4C171F6E72234024C2570766177177D02002D866, /*hidden argument*/NULL);
-		// break;
-		goto IL_0687;
-	}
-
-IL_0497:
 	{
 		// lightDataGI.orientation = light.transform.rotation;
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_180 = ___lightDataGI1;
@@ -38458,33 +38377,33 @@ IL_0497:
 		HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * L_197 = V_0;
 		NullCheck(L_197);
 		bool L_198 = HDAdditionalLightData_get_applyRangeAttenuation_m2FC5A93A8AF52ED71AA0FFB9284431109CF8DD02_inline(L_197, /*hidden argument*/NULL);
-		G_B29_0 = L_196;
+		G_B28_0 = L_196;
 		if (L_198)
 		{
-			G_B30_0 = L_196;
-			goto IL_0504;
+			G_B29_0 = L_196;
+			goto IL_04f4;
 		}
 	}
 	{
-		G_B31_0 = 1;
-		G_B31_1 = G_B29_0;
-		goto IL_0505;
+		G_B30_0 = 1;
+		G_B30_1 = G_B28_0;
+		goto IL_04f5;
 	}
 
-IL_0504:
+IL_04f4:
 	{
-		G_B31_0 = 0;
-		G_B31_1 = G_B30_0;
+		G_B30_0 = 0;
+		G_B30_1 = G_B29_0;
 	}
 
-IL_0505:
+IL_04f5:
 	{
-		G_B31_1->set_falloff_15(G_B31_0);
+		G_B30_1->set_falloff_15(G_B30_0);
 		// break;
-		goto IL_0687;
+		goto IL_065d;
 	}
 
-IL_050f:
+IL_04ff:
 	{
 		// switch (add.areaLightShape)
 		HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * L_199 = V_0;
@@ -38496,23 +38415,23 @@ IL_050f:
 		{
 			case 0:
 			{
-				goto IL_052f;
+				goto IL_051f;
 			}
 			case 1:
 			{
-				goto IL_05c8;
+				goto IL_05b8;
 			}
 			case 2:
 			{
-				goto IL_05d9;
+				goto IL_05c9;
 			}
 		}
 	}
 	{
-		goto IL_066f;
+		goto IL_065d;
 	}
 
-IL_052f:
+IL_051f:
 	{
 		// lightDataGI.orientation = light.transform.rotation;
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_202 = ___lightDataGI1;
@@ -38556,28 +38475,28 @@ IL_052f:
 		HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * L_219 = V_0;
 		NullCheck(L_219);
 		bool L_220 = HDAdditionalLightData_get_applyRangeAttenuation_m2FC5A93A8AF52ED71AA0FFB9284431109CF8DD02_inline(L_219, /*hidden argument*/NULL);
-		G_B35_0 = L_218;
+		G_B34_0 = L_218;
 		if (L_220)
 		{
-			G_B36_0 = L_218;
-			goto IL_059c;
+			G_B35_0 = L_218;
+			goto IL_058c;
 		}
 	}
 	{
-		G_B37_0 = 1;
-		G_B37_1 = G_B35_0;
-		goto IL_059d;
+		G_B36_0 = 1;
+		G_B36_1 = G_B34_0;
+		goto IL_058d;
 	}
 
-IL_059c:
+IL_058c:
 	{
-		G_B37_0 = 0;
-		G_B37_1 = G_B36_0;
+		G_B36_0 = 0;
+		G_B36_1 = G_B35_0;
 	}
 
-IL_059d:
+IL_058d:
 	{
-		G_B37_1->set_falloff_15(G_B37_0);
+		G_B36_1->set_falloff_15(G_B36_0);
 		// lightDataGI.cookieID = add.areaLightCookie ? add.areaLightCookie.GetInstanceID() : 0;
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_221 = ___lightDataGI1;
 		HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * L_222 = V_0;
@@ -38585,38 +38504,38 @@ IL_059d:
 		Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE * L_223 = HDAdditionalLightData_get_areaLightCookie_mD1FA8B227579E289527AFE14CA441CAD6DC4DE5B_inline(L_222, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_224 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_223, /*hidden argument*/NULL);
-		G_B38_0 = L_221;
+		G_B37_0 = L_221;
 		if (L_224)
 		{
-			G_B39_0 = L_221;
-			goto IL_05b3;
+			G_B38_0 = L_221;
+			goto IL_05a3;
 		}
 	}
 	{
-		G_B40_0 = 0;
-		G_B40_1 = G_B38_0;
-		goto IL_05be;
+		G_B39_0 = 0;
+		G_B39_1 = G_B37_0;
+		goto IL_05ae;
 	}
 
-IL_05b3:
+IL_05a3:
 	{
 		HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * L_225 = V_0;
 		NullCheck(L_225);
 		Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE * L_226 = HDAdditionalLightData_get_areaLightCookie_mD1FA8B227579E289527AFE14CA441CAD6DC4DE5B_inline(L_225, /*hidden argument*/NULL);
 		NullCheck(L_226);
 		int32_t L_227 = Object_GetInstanceID_m7CF962BC1DB5C03F3522F88728CB2F514582B501(L_226, /*hidden argument*/NULL);
-		G_B40_0 = L_227;
-		G_B40_1 = G_B39_0;
+		G_B39_0 = L_227;
+		G_B39_1 = G_B38_0;
 	}
 
-IL_05be:
+IL_05ae:
 	{
-		G_B40_1->set_cookieID_1(G_B40_0);
+		G_B39_1->set_cookieID_1(G_B39_0);
 		// break;
-		goto IL_0687;
+		goto IL_065d;
 	}
 
-IL_05c8:
+IL_05b8:
 	{
 		// lightDataGI.InitNoBake(lightDataGI.instanceID);
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_228 = ___lightDataGI1;
@@ -38624,10 +38543,10 @@ IL_05c8:
 		int32_t L_230 = L_229->get_instanceID_0();
 		LightDataGI_InitNoBake_mF600D612DE9A1CE4355C61317F6173E1AAEFBD57((LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 *)L_228, L_230, /*hidden argument*/NULL);
 		// break;
-		goto IL_0687;
+		goto IL_065d;
 	}
 
-IL_05d9:
+IL_05c9:
 	{
 		// lightDataGI.orientation = light.transform.rotation;
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_231 = ___lightDataGI1;
@@ -38671,28 +38590,28 @@ IL_05d9:
 		HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * L_248 = V_0;
 		NullCheck(L_248);
 		bool L_249 = HDAdditionalLightData_get_applyRangeAttenuation_m2FC5A93A8AF52ED71AA0FFB9284431109CF8DD02_inline(L_248, /*hidden argument*/NULL);
-		G_B43_0 = L_247;
+		G_B42_0 = L_247;
 		if (L_249)
 		{
-			G_B44_0 = L_247;
-			goto IL_0646;
+			G_B43_0 = L_247;
+			goto IL_0636;
 		}
 	}
 	{
-		G_B45_0 = 1;
-		G_B45_1 = G_B43_0;
-		goto IL_0647;
+		G_B44_0 = 1;
+		G_B44_1 = G_B42_0;
+		goto IL_0637;
 	}
 
-IL_0646:
+IL_0636:
 	{
-		G_B45_0 = 0;
-		G_B45_1 = G_B44_0;
+		G_B44_0 = 0;
+		G_B44_1 = G_B43_0;
 	}
 
-IL_0647:
+IL_0637:
 	{
-		G_B45_1->set_falloff_15(G_B45_0);
+		G_B44_1->set_falloff_15(G_B44_0);
 		// lightDataGI.cookieID = add.areaLightCookie ? add.areaLightCookie.GetInstanceID() : 0;
 		LightDataGI_t0C34AB69E4E96717FD276B35116C798A641D44F2 * L_250 = ___lightDataGI1;
 		HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * L_251 = V_0;
@@ -38700,54 +38619,36 @@ IL_0647:
 		Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE * L_252 = HDAdditionalLightData_get_areaLightCookie_mD1FA8B227579E289527AFE14CA441CAD6DC4DE5B_inline(L_251, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
 		bool L_253 = Object_op_Implicit_mC8214E4F028CC2F036CC82BDB81D102A02893499(L_252, /*hidden argument*/NULL);
-		G_B46_0 = L_250;
+		G_B45_0 = L_250;
 		if (L_253)
 		{
-			G_B47_0 = L_250;
-			goto IL_065d;
+			G_B46_0 = L_250;
+			goto IL_064d;
 		}
 	}
 	{
-		G_B48_0 = 0;
-		G_B48_1 = G_B46_0;
-		goto IL_0668;
+		G_B47_0 = 0;
+		G_B47_1 = G_B45_0;
+		goto IL_0658;
 	}
 
-IL_065d:
+IL_064d:
 	{
 		HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2 * L_254 = V_0;
 		NullCheck(L_254);
 		Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE * L_255 = HDAdditionalLightData_get_areaLightCookie_mD1FA8B227579E289527AFE14CA441CAD6DC4DE5B_inline(L_254, /*hidden argument*/NULL);
 		NullCheck(L_255);
 		int32_t L_256 = Object_GetInstanceID_m7CF962BC1DB5C03F3522F88728CB2F514582B501(L_255, /*hidden argument*/NULL);
-		G_B48_0 = L_256;
-		G_B48_1 = G_B47_0;
+		G_B47_0 = L_256;
+		G_B47_1 = G_B46_0;
 	}
 
-IL_0668:
+IL_0658:
 	{
-		G_B48_1->set_cookieID_1(G_B48_0);
-		// break;
-		goto IL_0687;
+		G_B47_1->set_cookieID_1(G_B47_0);
 	}
 
-IL_066f:
-	{
-		// Debug.Assert(false, "Encountered an unknown AreaLightShape.");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Assert_m28EC098B41C037ED14C42FE47D0E5355CD2437F5((bool)0, _stringLiteral26B26540536D372D9239279707CEFCFEE9BF5CC5, /*hidden argument*/NULL);
-		// break;
-		goto IL_0687;
-	}
-
-IL_067c:
-	{
-		// Debug.Assert(false, "Encountered an unknown LightType.");
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Assert_m28EC098B41C037ED14C42FE47D0E5355CD2437F5((bool)0, _stringLiteral834535C109191EC46A2B8487852130F7172D4080, /*hidden argument*/NULL);
-	}
-
-IL_0687:
+IL_065d:
 	{
 		// return true;
 		return (bool)1;
@@ -41130,7 +41031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HDAdditionalLightData_set_type_m483138EE
 		int32_t L_1 = ___value0;
 		if ((((int32_t)L_0) == ((int32_t)L_1)))
 		{
-			goto IL_00c3;
+			goto IL_009c;
 		}
 	}
 	{
@@ -41157,7 +41058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HDAdditionalLightData_set_type_m483138EE
 		}
 	}
 	{
-		goto IL_006b;
+		goto IL_0069;
 	}
 
 IL_0024:
@@ -41169,7 +41070,7 @@ IL_0024:
 		// m_PointlightHDType = PointLightHDType.Punctual;
 		__this->set_m_PointlightHDType_12(0);
 		// break;
-		goto IL_0090;
+		goto IL_0069;
 	}
 
 IL_0039:
@@ -41181,7 +41082,7 @@ IL_0039:
 		// m_PointlightHDType = PointLightHDType.Punctual;
 		__this->set_m_PointlightHDType_12(0);
 		// break;
-		goto IL_0090;
+		goto IL_0069;
 	}
 
 IL_004e:
@@ -41193,65 +41094,47 @@ IL_004e:
 		// m_PointlightHDType = PointLightHDType.Punctual;
 		__this->set_m_PointlightHDType_12(0);
 		// break;
-		goto IL_0090;
+		goto IL_0069;
 	}
 
 IL_0063:
 	{
 		// ResolveAreaShape();
 		HDAdditionalLightData_ResolveAreaShape_mB25AF4A8264E8B0D6E9BD6ECA1632BFD0241C323(__this, /*hidden argument*/NULL);
-		// break;
-		goto IL_0090;
 	}
 
-IL_006b:
-	{
-		// Debug.Assert(false, $"Unknown {typeof(HDLightType).Name} {value}.");
-		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_6 = { reinterpret_cast<intptr_t> (HDLightType_tE8FFA61A42F9AAD7B485E4F53A3926EAEA20CA59_0_0_0_var) };
-		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_7 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_6, /*hidden argument*/NULL);
-		NullCheck(L_7);
-		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_7);
-		int32_t L_9 = ___value0;
-		int32_t L_10 = L_9;
-		RuntimeObject * L_11 = Box(HDLightType_tE8FFA61A42F9AAD7B485E4F53A3926EAEA20CA59_il2cpp_TypeInfo_var, &L_10);
-		String_t* L_12 = String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66(_stringLiteral20A021B97C9931F5C27C49B5FC481EC6864C1123, L_8, L_11, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Assert_m28EC098B41C037ED14C42FE47D0E5355CD2437F5((bool)0, L_12, /*hidden argument*/NULL);
-	}
-
-IL_0090:
+IL_0069:
 	{
 		// var supportedUnits = GetSupportedLightUnits(value, m_SpotLightShape);
-		int32_t L_13 = ___value0;
-		int32_t L_14 = __this->get_m_SpotLightShape_13();
+		int32_t L_6 = ___value0;
+		int32_t L_7 = __this->get_m_SpotLightShape_13();
 		IL2CPP_RUNTIME_CLASS_INIT(HDAdditionalLightData_t1C078F1D87FC2A03081D72798270EE5E9E3EBFC2_il2cpp_TypeInfo_var);
-		LightUnitU5BU5D_t793486F5958A86545E758671CDC18B884E93C13E* L_15 = HDAdditionalLightData_GetSupportedLightUnits_m2630F25F67C61FA7D47B781CDB6DCBB3D7AAD44B(L_13, L_14, /*hidden argument*/NULL);
-		V_0 = L_15;
+		LightUnitU5BU5D_t793486F5958A86545E758671CDC18B884E93C13E* L_8 = HDAdditionalLightData_GetSupportedLightUnits_m2630F25F67C61FA7D47B781CDB6DCBB3D7AAD44B(L_6, L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
 		// if (!supportedUnits.Any(u => u == lightUnit))
-		LightUnitU5BU5D_t793486F5958A86545E758671CDC18B884E93C13E* L_16 = V_0;
-		Func_2_t876630E7AEC531DA1645D5CBD63219C0DC4C79FF * L_17 = (Func_2_t876630E7AEC531DA1645D5CBD63219C0DC4C79FF *)il2cpp_codegen_object_new(Func_2_t876630E7AEC531DA1645D5CBD63219C0DC4C79FF_il2cpp_TypeInfo_var);
-		Func_2__ctor_m8B98192C85F6EBD1B207BBA85C9BC22CE23CDF15(L_17, __this, (intptr_t)((intptr_t)HDAdditionalLightData_U3Cset_typeU3Eb__21_0_m362029C915B0BC4FCB5A6339E69F98E6A05B46C5_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m8B98192C85F6EBD1B207BBA85C9BC22CE23CDF15_RuntimeMethod_var);
-		bool L_18 = Enumerable_Any_TisLightUnit_t3397F0F2696660B0B2E6F8324C5AD31CD9BEEBF6_mD1678F3B00F8DDCB0E9130A33F660E10F20383D4((RuntimeObject*)(RuntimeObject*)L_16, L_17, /*hidden argument*/Enumerable_Any_TisLightUnit_t3397F0F2696660B0B2E6F8324C5AD31CD9BEEBF6_mD1678F3B00F8DDCB0E9130A33F660E10F20383D4_RuntimeMethod_var);
-		if (L_18)
+		LightUnitU5BU5D_t793486F5958A86545E758671CDC18B884E93C13E* L_9 = V_0;
+		Func_2_t876630E7AEC531DA1645D5CBD63219C0DC4C79FF * L_10 = (Func_2_t876630E7AEC531DA1645D5CBD63219C0DC4C79FF *)il2cpp_codegen_object_new(Func_2_t876630E7AEC531DA1645D5CBD63219C0DC4C79FF_il2cpp_TypeInfo_var);
+		Func_2__ctor_m8B98192C85F6EBD1B207BBA85C9BC22CE23CDF15(L_10, __this, (intptr_t)((intptr_t)HDAdditionalLightData_U3Cset_typeU3Eb__21_0_m362029C915B0BC4FCB5A6339E69F98E6A05B46C5_RuntimeMethod_var), /*hidden argument*/Func_2__ctor_m8B98192C85F6EBD1B207BBA85C9BC22CE23CDF15_RuntimeMethod_var);
+		bool L_11 = Enumerable_Any_TisLightUnit_t3397F0F2696660B0B2E6F8324C5AD31CD9BEEBF6_mD1678F3B00F8DDCB0E9130A33F660E10F20383D4((RuntimeObject*)(RuntimeObject*)L_9, L_10, /*hidden argument*/Enumerable_Any_TisLightUnit_t3397F0F2696660B0B2E6F8324C5AD31CD9BEEBF6_mD1678F3B00F8DDCB0E9130A33F660E10F20383D4_RuntimeMethod_var);
+		if (L_11)
 		{
-			goto IL_00bd;
+			goto IL_0096;
 		}
 	}
 	{
 		// lightUnit = supportedUnits.First();
-		LightUnitU5BU5D_t793486F5958A86545E758671CDC18B884E93C13E* L_19 = V_0;
-		int32_t L_20 = Enumerable_First_TisLightUnit_t3397F0F2696660B0B2E6F8324C5AD31CD9BEEBF6_m2E0E376C65F319285FA95E0B86C9D3E799B902CC((RuntimeObject*)(RuntimeObject*)L_19, /*hidden argument*/Enumerable_First_TisLightUnit_t3397F0F2696660B0B2E6F8324C5AD31CD9BEEBF6_m2E0E376C65F319285FA95E0B86C9D3E799B902CC_RuntimeMethod_var);
-		HDAdditionalLightData_set_lightUnit_m2AEAC1252213B04C84809FB62EEBF5C9677B5568(__this, L_20, /*hidden argument*/NULL);
+		LightUnitU5BU5D_t793486F5958A86545E758671CDC18B884E93C13E* L_12 = V_0;
+		int32_t L_13 = Enumerable_First_TisLightUnit_t3397F0F2696660B0B2E6F8324C5AD31CD9BEEBF6_m2E0E376C65F319285FA95E0B86C9D3E799B902CC((RuntimeObject*)(RuntimeObject*)L_12, /*hidden argument*/Enumerable_First_TisLightUnit_t3397F0F2696660B0B2E6F8324C5AD31CD9BEEBF6_m2E0E376C65F319285FA95E0B86C9D3E799B902CC_RuntimeMethod_var);
+		HDAdditionalLightData_set_lightUnit_m2AEAC1252213B04C84809FB62EEBF5C9677B5568(__this, L_13, /*hidden argument*/NULL);
 	}
 
-IL_00bd:
+IL_0096:
 	{
 		// UpdateAllLightValues();
 		HDAdditionalLightData_UpdateAllLightValues_m2E96318944D06AAC31D7C12B528761581FE91AEC(__this, /*hidden argument*/NULL);
 	}
 
-IL_00c3:
+IL_009c:
 	{
 		// }
 		return;
@@ -42080,20 +41963,6 @@ IL_0071:
 
 IL_0073:
 	{
-		// Debug.Assert(false, $"Unknown {typeof(LightType).Name} {attachedLight.type}. Fallback on Point");
-		RuntimeTypeHandle_tC33965ADA3E041E0C94AF05E5CB527B56482CEF9  L_11 = { reinterpret_cast<intptr_t> (LightType_tAD5FBE55DEE7A9C38A42323701B0BDD716761B14_0_0_0_var) };
-		IL2CPP_RUNTIME_CLASS_INIT(Type_t_il2cpp_TypeInfo_var);
-		Type_t * L_12 = Type_GetTypeFromHandle_m8BB57524FF7F9DB1803BC561D2B3A4DBACEB385E(L_11, /*hidden argument*/NULL);
-		NullCheck(L_12);
-		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_12);
-		Light_tA2F349FE839781469A0344CF6039B51512394275 * L_14 = ___attachedLight0;
-		NullCheck(L_14);
-		int32_t L_15 = Light_get_type_mDBBEC33D93952330EED5B02B15865C59D5C355A0(L_14, /*hidden argument*/NULL);
-		int32_t L_16 = L_15;
-		RuntimeObject * L_17 = Box(LightType_tAD5FBE55DEE7A9C38A42323701B0BDD716761B14_il2cpp_TypeInfo_var, &L_16);
-		String_t* L_18 = String_Format_m8D1CB0410C35E052A53AE957C914C841E54BAB66(_stringLiteralFD9F07BA5A1F0803FE1C94C116935DA67BB69D1C, L_13, L_17, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Assert_m28EC098B41C037ED14C42FE47D0E5355CD2437F5((bool)0, L_18, /*hidden argument*/NULL);
 		// return HDLightType.Point;
 		return (int32_t)(2);
 	}

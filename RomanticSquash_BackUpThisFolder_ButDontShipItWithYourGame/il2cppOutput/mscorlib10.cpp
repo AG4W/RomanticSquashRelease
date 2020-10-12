@@ -13836,6 +13836,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimePropertyInfo__ctor_m84511C5917C12
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Attribute__ctor_m5C1862A7DFC2C25A4797A8C5F681FBB5CB53ECE1 (Attribute_t037CA9D9F3B742C063DB364D2EEBBF9FC5772C71 * __this, const RuntimeMethod* method);
 // System.Void System.Delegate::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Delegate_GetObjectData_m0B9603693BE5B612ECAAF9E57A43DBB3CC793DE4 (Delegate_t * __this, SerializationInfo_t097DA64D9DB49ED7F2458E964BE8CCCF63FC67C1 * ___info0, StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505  ___context1, const RuntimeMethod* method);
+// System.Object System.Delegate::DynamicInvokeImpl(System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Delegate_DynamicInvokeImpl_m2B923BDB89EE1B1A3820D82A14EFB68EF1F145D1 (Delegate_t * __this, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args0, const RuntimeMethod* method);
+// System.Object System.Delegate::DynamicInvoke(System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Delegate_DynamicInvoke_m53122A57C6068A5EE443D102801A0FB0E661F4BA (Delegate_t * __this, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args0, const RuntimeMethod* method);
 // System.Boolean System.Delegate::Equals(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Delegate_Equals_m9ADFC8FD3E61687B4F95AA3F4559B24BAC8C89CF (Delegate_t * __this, RuntimeObject * ___obj0, const RuntimeMethod* method);
 // System.Int32 System.Delegate::GetHashCode()
@@ -20423,6 +20427,58 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MulticastDelegate_GetObjectData_m0AFD626
 		StreamingContext_t5888E7E8C81AB6EF3B14FDDA6674F458076A8505  L_1 = ___context1;
 		Delegate_GetObjectData_m0B9603693BE5B612ECAAF9E57A43DBB3CC793DE4(__this, L_0, L_1, /*hidden argument*/NULL);
 		return;
+	}
+}
+// System.Object System.MulticastDelegate::DynamicInvokeImpl(System.Object[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * MulticastDelegate_DynamicInvokeImpl_mB0A3CEB23941FC71BA06FB846867FCD82E2C6199 (MulticastDelegate_t * __this, ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* ___args0, const RuntimeMethod* method)
+{
+	RuntimeObject * V_0 = NULL;
+	int32_t V_1 = 0;
+	int32_t V_2 = 0;
+	{
+		DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_0 = __this->get_delegates_11();
+		if (L_0)
+		{
+			goto IL_0010;
+		}
+	}
+	{
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_1 = ___args0;
+		RuntimeObject * L_2 = Delegate_DynamicInvokeImpl_m2B923BDB89EE1B1A3820D82A14EFB68EF1F145D1(__this, L_1, /*hidden argument*/NULL);
+		return L_2;
+	}
+
+IL_0010:
+	{
+		V_1 = 0;
+		DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_3 = __this->get_delegates_11();
+		NullCheck(L_3);
+		V_2 = (((int32_t)((int32_t)(((RuntimeArray*)L_3)->max_length))));
+	}
+
+IL_001b:
+	{
+		DelegateU5BU5D_t677D8FE08A5F99E8EE49150B73966CD6E9BF7DB8* L_4 = __this->get_delegates_11();
+		int32_t L_5 = V_1;
+		NullCheck(L_4);
+		int32_t L_6 = L_5;
+		Delegate_t * L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_8 = ___args0;
+		NullCheck(L_7);
+		RuntimeObject * L_9 = Delegate_DynamicInvoke_m53122A57C6068A5EE443D102801A0FB0E661F4BA(L_7, L_8, /*hidden argument*/NULL);
+		V_0 = L_9;
+		int32_t L_10 = V_1;
+		int32_t L_11 = ((int32_t)il2cpp_codegen_add((int32_t)L_10, (int32_t)1));
+		V_1 = L_11;
+		int32_t L_12 = V_2;
+		if ((((int32_t)L_11) < ((int32_t)L_12)))
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		RuntimeObject * L_13 = V_0;
+		return L_13;
 	}
 }
 // System.Boolean System.MulticastDelegate::Equals(System.Object)
@@ -36663,15 +36719,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_ToString_m6EEDE9678ACEB962C5
 		NullCheck(L_0);
 		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_0);
 		return L_1;
-	}
-}
-// System.Boolean System.Object::ReferenceEquals(System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_ReferenceEquals_mA7C1CBF0A14206E38473230C8A96D23EFECE6A1F (RuntimeObject * ___objA0, RuntimeObject * ___objB1)
-{
-	{
-		RuntimeObject * L_0 = ___objA0;
-		RuntimeObject * L_1 = ___objB1;
-		return (bool)((((RuntimeObject*)(RuntimeObject *)L_0) == ((RuntimeObject*)(RuntimeObject *)L_1))? 1 : 0);
 	}
 }
 // System.Int32 System.Object::InternalGetHashCode(System.Object)

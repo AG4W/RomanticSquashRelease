@@ -947,7 +947,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral585B1FA631AFDCB62DB769A1024A5A45B45C44B1
 IL2CPP_EXTERN_C String_t* _stringLiteral58814862A215EC1BC3A2AF50034FEC9B8A0C6089;
 IL2CPP_EXTERN_C String_t* _stringLiteral599D01A0F20A43CCB60066CA1C66D25729B74E21;
 IL2CPP_EXTERN_C String_t* _stringLiteral5E10E4D52D2D86EC26AA67EDE986AC4223A389D1;
-IL2CPP_EXTERN_C String_t* _stringLiteral5E2859F40D7796A0F805AFDE42B14121B4B610A3;
 IL2CPP_EXTERN_C String_t* _stringLiteral5EB40783962F4FA433C135E301333970F2456947;
 IL2CPP_EXTERN_C String_t* _stringLiteral5F765AAD6A1BC343B3BD24F16100D5E9FD5A590C;
 IL2CPP_EXTERN_C String_t* _stringLiteral5FA8CE7D7DEF05403211790DE2618AE81D130808;
@@ -13702,8 +13701,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NetworkVisibility_t11F3E314460EB47EA3971A1B1B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t NetworkWriter_get_Position_mCC619999A1AD046AD2377028073AABAEBD1A7BFD_inline (NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * __this, const RuntimeMethod* method);
 // System.Void Mirror.NetworkWriter::set_Position(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkWriter_set_Position_m201FBEA9E80A82E2BEC2C2BF48D4C80F1258BE57 (NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * __this, int32_t ___value0, const RuntimeMethod* method);
-// System.Void UnityEngine.Debug::Assert(System.Boolean,System.String,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Assert_mBA681DD4C1D122038A993D20EF88AAC30520AB9D (bool ___condition0, String_t* ___message1, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___context2, const RuntimeMethod* method);
 // System.UInt64 Mirror.NetworkIdentity::GetSyncModeObserversMask()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t NetworkIdentity_GetSyncModeObserversMask_mEFBE0D01E2CDC40E2EC885F0DD1D59748ACE0A5F (NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6 * __this, const RuntimeMethod* method);
 // System.Boolean Mirror.NetworkBehaviour::IsDirty()
@@ -30857,173 +30854,169 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NetworkIdentity_OnSerializeAllSafely_m14
 		*((int32_t*)L_1) = (int32_t)L_2;
 		int32_t L_3 = V_1;
 		*((int32_t*)L_0) = (int32_t)L_3;
-		// Debug.Assert(dirtyComponentsMask != 0UL, "OnSerializeAllSafely Should not be given a zero dirtyComponentsMask", this);
-		uint64_t L_4 = ___dirtyComponentsMask1;
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Assert_mBA681DD4C1D122038A993D20EF88AAC30520AB9D((bool)((!(((uint64_t)L_4) <= ((uint64_t)(((int64_t)((int64_t)0))))))? 1 : 0), _stringLiteral5E2859F40D7796A0F805AFDE42B14121B4B610A3, __this, /*hidden argument*/NULL);
 		// ulong syncModeObserversMask = GetSyncModeObserversMask();
-		uint64_t L_5 = NetworkIdentity_GetSyncModeObserversMask_mEFBE0D01E2CDC40E2EC885F0DD1D59748ACE0A5F(__this, /*hidden argument*/NULL);
-		V_0 = L_5;
+		uint64_t L_4 = NetworkIdentity_GetSyncModeObserversMask_mEFBE0D01E2CDC40E2EC885F0DD1D59748ACE0A5F(__this, /*hidden argument*/NULL);
+		V_0 = L_4;
 		// ownerWriter.WritePackedUInt64(dirtyComponentsMask);
-		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_6 = ___ownerWriter2;
-		uint64_t L_7 = ___dirtyComponentsMask1;
+		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_5 = ___ownerWriter2;
+		uint64_t L_6 = ___dirtyComponentsMask1;
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkWriterExtensions_t4E0050A4923BB33CFBAF091AFD346DEB02C573A2_il2cpp_TypeInfo_var);
-		NetworkWriterExtensions_WritePackedUInt64_m4AC0ABC95C0965DE0AA4520B6AE43BFA2095701B(L_6, L_7, /*hidden argument*/NULL);
+		NetworkWriterExtensions_WritePackedUInt64_m4AC0ABC95C0965DE0AA4520B6AE43BFA2095701B(L_5, L_6, /*hidden argument*/NULL);
 		// observersWriter.WritePackedUInt64(dirtyComponentsMask & syncModeObserversMask);
-		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_8 = ___observersWriter4;
-		uint64_t L_9 = ___dirtyComponentsMask1;
-		uint64_t L_10 = V_0;
-		NetworkWriterExtensions_WritePackedUInt64_m4AC0ABC95C0965DE0AA4520B6AE43BFA2095701B(L_8, ((int64_t)((int64_t)L_9&(int64_t)L_10)), /*hidden argument*/NULL);
+		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_7 = ___observersWriter4;
+		uint64_t L_8 = ___dirtyComponentsMask1;
+		uint64_t L_9 = V_0;
+		NetworkWriterExtensions_WritePackedUInt64_m4AC0ABC95C0965DE0AA4520B6AE43BFA2095701B(L_7, ((int64_t)((int64_t)L_8&(int64_t)L_9)), /*hidden argument*/NULL);
 		// foreach (NetworkBehaviour comp in NetworkBehaviours)
-		NetworkBehaviourU5BU5D_t88F442C3B8452017C596F9367CB7F74F7B07C8CC* L_11 = NetworkIdentity_get_NetworkBehaviours_m7D27CEBD20ABC0925B9C7187E04E43CAC99AE8B0(__this, /*hidden argument*/NULL);
-		V_2 = L_11;
+		NetworkBehaviourU5BU5D_t88F442C3B8452017C596F9367CB7F74F7B07C8CC* L_10 = NetworkIdentity_get_NetworkBehaviours_m7D27CEBD20ABC0925B9C7187E04E43CAC99AE8B0(__this, /*hidden argument*/NULL);
+		V_2 = L_10;
 		V_1 = 0;
-		goto IL_00fa;
+		goto IL_00ea;
 	}
 
-IL_0040:
+IL_0030:
 	{
 		// foreach (NetworkBehaviour comp in NetworkBehaviours)
-		NetworkBehaviourU5BU5D_t88F442C3B8452017C596F9367CB7F74F7B07C8CC* L_12 = V_2;
-		int32_t L_13 = V_1;
-		NullCheck(L_12);
-		int32_t L_14 = L_13;
-		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
-		V_3 = L_15;
+		NetworkBehaviourU5BU5D_t88F442C3B8452017C596F9367CB7F74F7B07C8CC* L_11 = V_2;
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		V_3 = L_14;
 		// if (initialState || comp.IsDirty())
-		bool L_16 = ___initialState0;
-		if (L_16)
+		bool L_15 = ___initialState0;
+		if (L_15)
 		{
-			goto IL_0052;
+			goto IL_0042;
 		}
 	}
 	{
-		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_17 = V_3;
-		NullCheck(L_17);
-		bool L_18 = NetworkBehaviour_IsDirty_m50CC8C762BF12BBF3D796B0266BBF1E0D90BA1EA(L_17, /*hidden argument*/NULL);
-		if (!L_18)
+		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_16 = V_3;
+		NullCheck(L_16);
+		bool L_17 = NetworkBehaviour_IsDirty_m50CC8C762BF12BBF3D796B0266BBF1E0D90BA1EA(L_16, /*hidden argument*/NULL);
+		if (!L_17)
 		{
-			goto IL_00f6;
+			goto IL_00e6;
 		}
 	}
 
-IL_0052:
+IL_0042:
 	{
 		// if (logger.LogEnabled()) logger.Log("OnSerializeAllSafely: " + name + " -> " + comp.GetType() + " initial=" + initialState);
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_il2cpp_TypeInfo_var);
-		RuntimeObject* L_19 = ((NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_StaticFields*)il2cpp_codegen_static_fields_for(NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_il2cpp_TypeInfo_var))->get_logger_4();
-		bool L_20 = ILoggerExtensions_LogEnabled_m2FBC19416D6F64AA30164AA26A5D985B9C607E2B(L_19, /*hidden argument*/NULL);
-		if (!L_20)
+		RuntimeObject* L_18 = ((NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_StaticFields*)il2cpp_codegen_static_fields_for(NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_il2cpp_TypeInfo_var))->get_logger_4();
+		bool L_19 = ILoggerExtensions_LogEnabled_m2FBC19416D6F64AA30164AA26A5D985B9C607E2B(L_18, /*hidden argument*/NULL);
+		if (!L_19)
 		{
-			goto IL_00a7;
+			goto IL_0097;
 		}
 	}
 	{
 		// if (logger.LogEnabled()) logger.Log("OnSerializeAllSafely: " + name + " -> " + comp.GetType() + " initial=" + initialState);
 		IL2CPP_RUNTIME_CLASS_INIT(NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_il2cpp_TypeInfo_var);
-		RuntimeObject* L_21 = ((NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_StaticFields*)il2cpp_codegen_static_fields_for(NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_il2cpp_TypeInfo_var))->get_logger_4();
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_22 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)SZArrayNew(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var, (uint32_t)6);
+		RuntimeObject* L_20 = ((NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_StaticFields*)il2cpp_codegen_static_fields_for(NetworkIdentity_t70E508ECD2AC55E14D9D2BBD15BB341AEE0BB0B6_il2cpp_TypeInfo_var))->get_logger_4();
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_21 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)SZArrayNew(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var, (uint32_t)6);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_22 = L_21;
+		NullCheck(L_22);
+		ArrayElementTypeCheck (L_22, _stringLiteralF5CADE193D6B06E38193304AC33937523B218BDF);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)_stringLiteralF5CADE193D6B06E38193304AC33937523B218BDF);
 		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_23 = L_22;
+		String_t* L_24 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(__this, /*hidden argument*/NULL);
 		NullCheck(L_23);
-		ArrayElementTypeCheck (L_23, _stringLiteralF5CADE193D6B06E38193304AC33937523B218BDF);
-		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)_stringLiteralF5CADE193D6B06E38193304AC33937523B218BDF);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_24 = L_23;
-		String_t* L_25 = Object_get_name_m0C7BC870ED2F0DC5A2FB09628136CD7D1CB82CFB(__this, /*hidden argument*/NULL);
-		NullCheck(L_24);
-		ArrayElementTypeCheck (L_24, L_25);
-		(L_24)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)L_25);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_26 = L_24;
-		NullCheck(L_26);
-		ArrayElementTypeCheck (L_26, _stringLiteral9D98CF45AE5B5E623759A6DCB43B04AC6BAE9719);
-		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)_stringLiteral9D98CF45AE5B5E623759A6DCB43B04AC6BAE9719);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_27 = L_26;
-		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_28 = V_3;
-		NullCheck(L_28);
-		Type_t * L_29 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_28, /*hidden argument*/NULL);
+		ArrayElementTypeCheck (L_23, L_24);
+		(L_23)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)L_24);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_25 = L_23;
+		NullCheck(L_25);
+		ArrayElementTypeCheck (L_25, _stringLiteral9D98CF45AE5B5E623759A6DCB43B04AC6BAE9719);
+		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)_stringLiteral9D98CF45AE5B5E623759A6DCB43B04AC6BAE9719);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_26 = L_25;
+		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_27 = V_3;
 		NullCheck(L_27);
-		ArrayElementTypeCheck (L_27, L_29);
-		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject *)L_29);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_30 = L_27;
+		Type_t * L_28 = Object_GetType_m571FE8360C10B98C23AAF1F066D92C08CC94F45B(L_27, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		ArrayElementTypeCheck (L_26, L_28);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject *)L_28);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_29 = L_26;
+		NullCheck(L_29);
+		ArrayElementTypeCheck (L_29, _stringLiteralD5A215BCB27D62015FC8EEAFB6263BADC9620BA5);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject *)_stringLiteralD5A215BCB27D62015FC8EEAFB6263BADC9620BA5);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_30 = L_29;
+		String_t* L_31 = Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C((bool*)(&___initialState0), /*hidden argument*/NULL);
 		NullCheck(L_30);
-		ArrayElementTypeCheck (L_30, _stringLiteralD5A215BCB27D62015FC8EEAFB6263BADC9620BA5);
-		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject *)_stringLiteralD5A215BCB27D62015FC8EEAFB6263BADC9620BA5);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_31 = L_30;
-		String_t* L_32 = Boolean_ToString_m59BB8456DD05A874BBD756E57EA8AD983287015C((bool*)(&___initialState0), /*hidden argument*/NULL);
-		NullCheck(L_31);
-		ArrayElementTypeCheck (L_31, L_32);
-		(L_31)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject *)L_32);
-		String_t* L_33 = String_Concat_m6F0ED62933448F8B944E52872E1EE86F6705D306(L_31, /*hidden argument*/NULL);
-		NullCheck(L_21);
-		InterfaceActionInvoker1< RuntimeObject * >::Invoke(8 /* System.Void UnityEngine.ILogger::Log(System.Object) */, ILogger_t25627AC5B51863702868D31972297B7D633B4583_il2cpp_TypeInfo_var, L_21, L_33);
+		ArrayElementTypeCheck (L_30, L_31);
+		(L_30)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject *)L_31);
+		String_t* L_32 = String_Concat_m6F0ED62933448F8B944E52872E1EE86F6705D306(L_30, /*hidden argument*/NULL);
+		NullCheck(L_20);
+		InterfaceActionInvoker1< RuntimeObject * >::Invoke(8 /* System.Void UnityEngine.ILogger::Log(System.Object) */, ILogger_t25627AC5B51863702868D31972297B7D633B4583_il2cpp_TypeInfo_var, L_20, L_32);
 	}
 
-IL_00a7:
+IL_0097:
 	{
 		// int startPosition = ownerWriter.Position;
-		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_34 = ___ownerWriter2;
-		NullCheck(L_34);
-		int32_t L_35 = NetworkWriter_get_Position_mCC619999A1AD046AD2377028073AABAEBD1A7BFD_inline(L_34, /*hidden argument*/NULL);
-		V_4 = L_35;
+		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_33 = ___ownerWriter2;
+		NullCheck(L_33);
+		int32_t L_34 = NetworkWriter_get_Position_mCC619999A1AD046AD2377028073AABAEBD1A7BFD_inline(L_33, /*hidden argument*/NULL);
+		V_4 = L_34;
 		// OnSerializeSafely(comp, ownerWriter, initialState);
-		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_36 = V_3;
-		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_37 = ___ownerWriter2;
-		bool L_38 = ___initialState0;
-		NetworkIdentity_OnSerializeSafely_m5612BD0E29030C4166F0BF245E7F4253C0EC1A46(__this, L_36, L_37, L_38, /*hidden argument*/NULL);
+		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_35 = V_3;
+		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_36 = ___ownerWriter2;
+		bool L_37 = ___initialState0;
+		NetworkIdentity_OnSerializeSafely_m5612BD0E29030C4166F0BF245E7F4253C0EC1A46(__this, L_35, L_36, L_37, /*hidden argument*/NULL);
 		// ++ownerWritten;
+		int32_t* L_38 = ___ownerWritten3;
 		int32_t* L_39 = ___ownerWritten3;
-		int32_t* L_40 = ___ownerWritten3;
-		int32_t L_41 = *((int32_t*)L_40);
-		*((int32_t*)L_39) = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_41, (int32_t)1));
+		int32_t L_40 = *((int32_t*)L_39);
+		*((int32_t*)L_38) = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_40, (int32_t)1));
 		// if (comp.syncMode == SyncMode.Observers)
-		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_42 = V_3;
-		NullCheck(L_42);
-		int32_t L_43 = L_42->get_syncMode_6();
-		if (L_43)
+		NetworkBehaviour_t47DD4FB3737F8D6119DC03C10E899E61DFBDD9C4 * L_41 = V_3;
+		NullCheck(L_41);
+		int32_t L_42 = L_41->get_syncMode_6();
+		if (L_42)
 		{
-			goto IL_00f6;
+			goto IL_00e6;
 		}
 	}
 	{
 		// ArraySegment<byte> segment = ownerWriter.ToArraySegment();
-		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_44 = ___ownerWriter2;
-		NullCheck(L_44);
-		ArraySegment_1_t89782CFC3178DB9FD8FFCCC398B4575AE8D740AE  L_45 = NetworkWriter_ToArraySegment_m20B3969C06F4320029AD66A820B0523A8D6641EF(L_44, /*hidden argument*/NULL);
-		V_5 = L_45;
+		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_43 = ___ownerWriter2;
+		NullCheck(L_43);
+		ArraySegment_1_t89782CFC3178DB9FD8FFCCC398B4575AE8D740AE  L_44 = NetworkWriter_ToArraySegment_m20B3969C06F4320029AD66A820B0523A8D6641EF(L_43, /*hidden argument*/NULL);
+		V_5 = L_44;
 		// int length = ownerWriter.Position - startPosition;
-		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_46 = ___ownerWriter2;
-		NullCheck(L_46);
-		int32_t L_47 = NetworkWriter_get_Position_mCC619999A1AD046AD2377028073AABAEBD1A7BFD_inline(L_46, /*hidden argument*/NULL);
-		int32_t L_48 = V_4;
-		V_6 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_47, (int32_t)L_48));
+		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_45 = ___ownerWriter2;
+		NullCheck(L_45);
+		int32_t L_46 = NetworkWriter_get_Position_mCC619999A1AD046AD2377028073AABAEBD1A7BFD_inline(L_45, /*hidden argument*/NULL);
+		int32_t L_47 = V_4;
+		V_6 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_46, (int32_t)L_47));
 		// observersWriter.WriteBytes(segment.Array, startPosition, length);
-		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_49 = ___observersWriter4;
-		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_50 = ArraySegment_1_get_Array_m3D83A2CFF4D51F8ED83C89538616FF0A700F463C_inline((ArraySegment_1_t89782CFC3178DB9FD8FFCCC398B4575AE8D740AE *)(&V_5), /*hidden argument*/ArraySegment_1_get_Array_m3D83A2CFF4D51F8ED83C89538616FF0A700F463C_RuntimeMethod_var);
-		int32_t L_51 = V_4;
-		int32_t L_52 = V_6;
-		NullCheck(L_49);
-		NetworkWriter_WriteBytes_m1EF0FDBA6E07D885F57CB524710524715BB7E374(L_49, L_50, L_51, L_52, /*hidden argument*/NULL);
+		NetworkWriter_t5132AE3A2F4CA663A808D4A914B8F74239B6DD9A * L_48 = ___observersWriter4;
+		ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* L_49 = ArraySegment_1_get_Array_m3D83A2CFF4D51F8ED83C89538616FF0A700F463C_inline((ArraySegment_1_t89782CFC3178DB9FD8FFCCC398B4575AE8D740AE *)(&V_5), /*hidden argument*/ArraySegment_1_get_Array_m3D83A2CFF4D51F8ED83C89538616FF0A700F463C_RuntimeMethod_var);
+		int32_t L_50 = V_4;
+		int32_t L_51 = V_6;
+		NullCheck(L_48);
+		NetworkWriter_WriteBytes_m1EF0FDBA6E07D885F57CB524710524715BB7E374(L_48, L_49, L_50, L_51, /*hidden argument*/NULL);
 		// ++observersWritten;
+		int32_t* L_52 = ___observersWritten5;
 		int32_t* L_53 = ___observersWritten5;
-		int32_t* L_54 = ___observersWritten5;
-		int32_t L_55 = *((int32_t*)L_54);
-		*((int32_t*)L_53) = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_55, (int32_t)1));
+		int32_t L_54 = *((int32_t*)L_53);
+		*((int32_t*)L_52) = (int32_t)((int32_t)il2cpp_codegen_add((int32_t)L_54, (int32_t)1));
 	}
 
-IL_00f6:
+IL_00e6:
 	{
-		int32_t L_56 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_56, (int32_t)1));
+		int32_t L_55 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_55, (int32_t)1));
 	}
 
-IL_00fa:
+IL_00ea:
 	{
 		// foreach (NetworkBehaviour comp in NetworkBehaviours)
-		int32_t L_57 = V_1;
-		NetworkBehaviourU5BU5D_t88F442C3B8452017C596F9367CB7F74F7B07C8CC* L_58 = V_2;
-		NullCheck(L_58);
-		if ((((int32_t)L_57) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_58)->max_length)))))))
+		int32_t L_56 = V_1;
+		NetworkBehaviourU5BU5D_t88F442C3B8452017C596F9367CB7F74F7B07C8CC* L_57 = V_2;
+		NullCheck(L_57);
+		if ((((int32_t)L_56) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray*)L_57)->max_length)))))))
 		{
-			goto IL_0040;
+			goto IL_0030;
 		}
 	}
 	{

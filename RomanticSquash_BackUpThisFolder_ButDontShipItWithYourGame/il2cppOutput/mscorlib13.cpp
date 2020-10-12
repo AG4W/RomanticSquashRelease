@@ -17663,7 +17663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ResourceSet_GetEnumeratorHelpe
 IL_001a:
 	{
 		NullCheck(G_B2_0);
-		RuntimeObject* L_4 = VirtFuncInvoker0< RuntimeObject* >::Invoke(23 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, G_B2_0);
+		RuntimeObject* L_4 = VirtFuncInvoker0< RuntimeObject* >::Invoke(22 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, G_B2_0);
 		return L_4;
 	}
 }
@@ -17934,7 +17934,7 @@ IL_0028:
 	{
 		String_t* L_6 = ___name0;
 		NullCheck(G_B4_0);
-		RuntimeObject * L_7 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(21 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, G_B4_0, L_6);
+		RuntimeObject * L_7 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(20 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, G_B4_0, L_6);
 		return L_7;
 	}
 }
@@ -17984,7 +17984,7 @@ IL_001b:
 		V_1 = L_7;
 		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_8 = V_0;
 		NullCheck(L_8);
-		RuntimeObject* L_9 = VirtFuncInvoker0< RuntimeObject* >::Invoke(23 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_8);
+		RuntimeObject* L_9 = VirtFuncInvoker0< RuntimeObject* >::Invoke(22 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_8);
 		V_2 = L_9;
 		goto IL_004b;
 	}
@@ -18022,7 +18022,7 @@ IL_005a:
 		Hashtable_t7565AB92A12227AD5BADD6911F10D87EE52509AC * L_18 = V_1;
 		String_t* L_19 = ___name0;
 		NullCheck(L_18);
-		RuntimeObject * L_20 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(21 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_18, L_19);
+		RuntimeObject * L_20 = VirtFuncInvoker1< RuntimeObject *, RuntimeObject * >::Invoke(20 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_18, L_19);
 		return L_20;
 	}
 }

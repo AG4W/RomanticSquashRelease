@@ -43488,24 +43488,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR StringComparer_t69EC059128AD0CAE2
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TaskFactory_1_t16A95DD17BBA3D00F0A85C5077BB248421EF3A55 * Task_1_get_Factory_m496FE7F1B14ACCAE2B4C8E496245A7A63F04C0B0_gshared_inline (const RuntimeMethod* method)
 {
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		TaskFactory_1_t16A95DD17BBA3D00F0A85C5077BB248421EF3A55 * L_0 = ((Task_1_tC1805497876E88B78A2B0CB81C6409E0B381AC17_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->get_s_Factory_41();
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		TaskFactory_1_t16A95DD17BBA3D00F0A85C5077BB248421EF3A55 * L_0 = ((Task_1_tC1805497876E88B78A2B0CB81C6409E0B381AC17_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->get_s_Factory_41();
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TaskFactory_1_tCA6286B86C0D5D6C00D5A0DFE56F7E48A482DD5E * Task_1_get_Factory_mA769ACA7152654C98992F8FC3FE314D4F1DA844A_gshared_inline (const RuntimeMethod* method)
 {
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		TaskFactory_1_tCA6286B86C0D5D6C00D5A0DFE56F7E48A482DD5E * L_0 = ((Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->get_s_Factory_41();
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		TaskFactory_1_tCA6286B86C0D5D6C00D5A0DFE56F7E48A482DD5E * L_0 = ((Task_1_tEF253D967DB628A9F8A389A9F2E4516871FD3725_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->get_s_Factory_41();
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR TaskFactory_1_tFB275324AE5DFF09076F466397FA387865C193F3 * Task_1_get_Factory_m331201558DFB9FCC0F20028D079CCDD0CE5849D5_gshared_inline (const RuntimeMethod* method)
 {
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		TaskFactory_1_tFB275324AE5DFF09076F466397FA387865C193F3 * L_0 = ((Task_1_t1D8F5A7FEA58CBB69A605A9C95C89D21478EC052_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->get_s_Factory_41();
+		IL2CPP_RUNTIME_CLASS_INIT(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		TaskFactory_1_tFB275324AE5DFF09076F466397FA387865C193F3 * L_0 = ((Task_1_t1D8F5A7FEA58CBB69A605A9C95C89D21478EC052_StaticFields*)il2cpp_codegen_static_fields_for(IL2CPP_RGCTX_DATA(InitializedTypeInfo(method->klass)->rgctx_data, 8)))->get_s_Factory_41();
 		return L_0;
 	}
 }
