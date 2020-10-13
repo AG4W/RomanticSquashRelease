@@ -7,7 +7,7 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -16,7 +16,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -25,7 +25,7 @@
             "fullManagedTypeName": "UnityEngine.Behaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -34,7 +34,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -43,7 +43,7 @@
             "fullManagedTypeName": "UnityEngine.Component",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -52,7 +52,7 @@
             "fullManagedTypeName": "UnityEngine.MonoBehaviour",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -61,7 +61,7 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -70,7 +70,7 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -79,7 +79,7 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -88,7 +88,7 @@
             "fullManagedTypeName": "UnityEngine.Texture",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -97,7 +97,16 @@
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Sprite",
+            "fullManagedTypeName": "UnityEngine.Sprite",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -120,7 +129,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -136,7 +145,7 @@
             "fullManagedTypeName": "UnityEngine.ComputeShader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -145,7 +154,7 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -168,7 +177,7 @@
             "fullManagedTypeName": "UnityEngine.Cubemap",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -240,7 +249,7 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -284,7 +293,7 @@
             "fullManagedTypeName": "UnityEngine.Camera",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -293,7 +302,7 @@
             "fullManagedTypeName": "UnityEngine.Transform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -302,7 +311,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -311,7 +320,7 @@
             "fullManagedTypeName": "UnityEngine.Light",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -320,7 +329,7 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -329,7 +338,7 @@
             "fullManagedTypeName": "UnityEngine.SkinnedMeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -338,7 +347,7 @@
             "fullManagedTypeName": "UnityEngine.MeshRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -347,7 +356,7 @@
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -356,16 +365,7 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioListener",
-            "fullManagedTypeName": "UnityEngine.AudioListener",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -374,7 +374,7 @@
             "fullManagedTypeName": "UnityEngine.AudioReverbZone",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -383,7 +383,7 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -392,7 +392,7 @@
             "fullManagedTypeName": "UnityEngine.CharacterController",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -401,7 +401,7 @@
             "fullManagedTypeName": "UnityEngine.MeshCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -410,7 +410,7 @@
             "fullManagedTypeName": "UnityEngine.CapsuleCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -419,7 +419,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -428,7 +428,7 @@
             "fullManagedTypeName": "UnityEngine.Canvas",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -437,7 +437,7 @@
             "fullManagedTypeName": "UnityEngine.RectTransform",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -446,7 +446,7 @@
             "fullManagedTypeName": "UnityEngine.VFX.VisualEffect",
             "moduleName": "VFX",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -455,7 +455,7 @@
             "fullManagedTypeName": "UnityEngine.VFX.VFXRenderer",
             "moduleName": "VFX",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -464,7 +464,7 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -473,7 +473,7 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -482,7 +482,7 @@
             "fullManagedTypeName": "UnityEngine.Avatar",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -491,7 +491,7 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -500,7 +500,7 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -509,7 +509,7 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -518,7 +518,7 @@
             "fullManagedTypeName": "UnityEngine.GameObject",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -527,7 +527,7 @@
             "fullManagedTypeName": "UnityEngine.LightmapSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -536,16 +536,7 @@
             "fullManagedTypeName": "UnityEngine.Font",
             "moduleName": "TextRendering",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Sprite",
-            "fullManagedTypeName": "UnityEngine.Sprite",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -554,7 +545,7 @@
             "fullManagedTypeName": "UnityEngine.CanvasRenderer",
             "moduleName": "UI",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -563,16 +554,7 @@
             "fullManagedTypeName": "UnityEngine.VFX.VisualEffectAsset",
             "moduleName": "VFX",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightProbeGroup",
-            "fullManagedTypeName": "UnityEngine.LightProbeGroup",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -581,7 +563,7 @@
             "fullManagedTypeName": "UnityEngine.LightingSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -590,7 +572,7 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -599,16 +581,7 @@
             "fullManagedTypeName": "UnityEngine.RenderSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "AudioClip",
-            "fullManagedTypeName": "UnityEngine.AudioClip",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -617,16 +590,7 @@
             "fullManagedTypeName": "",
             "moduleName": "AI",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "SampleClip",
-            "fullManagedTypeName": "",
-            "moduleName": "Audio",
-            "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -635,7 +599,7 @@
             "fullManagedTypeName": "UnityEngine.VFX.VisualEffectObject",
             "moduleName": "VFX",
             "usedInScenes": [
-                "Assets/Scenes/SampleScene/SampleScene.unity"
+                "Assets/Scenes/Axel/Axel.unity"
             ]
         },
         {
@@ -646,9 +610,44 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp-firstpass.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "FMODUnity.StudioListener",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "AIVehicleController",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Actor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "ActorMotor",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "BalloonComponent",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "BalloonModelComponent",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -663,6 +662,20 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "CustomNetworkManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "DiegeticButton",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "EnemyPatrolState",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -711,6 +724,13 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "PlayerAudioHandler",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "PostProcessingController",
             "moduleName": "",
             "usedInScenes": []
@@ -746,6 +766,20 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "SlotItem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SlotItemData",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "TurretWeaponState",
             "moduleName": "",
             "usedInScenes": []
@@ -775,6 +809,13 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "WeaponModelComponent",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Mirror.Components.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Mirror.NetworkAnimator",
             "moduleName": "",
             "usedInScenes": []
         },

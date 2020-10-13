@@ -140,7 +140,7 @@ static const int32_t s_InvokerIndices[37] =
 	26,
 	26,
 	27,
-	2723,
+	2722,
 	27,
 	23,
 	3,

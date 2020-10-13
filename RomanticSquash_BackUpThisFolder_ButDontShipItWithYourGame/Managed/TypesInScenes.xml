@@ -9,6 +9,7 @@
 		<type fullname="UnityEngine.Mesh" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture" preserve="nothing"/>
 		<type fullname="UnityEngine.Texture2D" preserve="nothing"/>
+		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
 		<type fullname="UnityEngine.ComputeShader" preserve="nothing"/>
 		<type fullname="UnityEngine.Shader" preserve="nothing"/>
@@ -33,7 +34,6 @@
 		<type fullname="UnityEngine.MeshRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioSource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioListener" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioReverbZone" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider" preserve="nothing"/>
 		<type fullname="UnityEngine.CharacterController" preserve="nothing"/>
@@ -53,33 +53,40 @@
 		<type fullname="UnityEngine.GameObject" preserve="nothing"/>
 		<type fullname="UnityEngine.LightmapSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.Font" preserve="nothing"/>
-		<type fullname="UnityEngine.Sprite" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.VFX.VisualEffectAsset" preserve="nothing"/>
-		<type fullname="UnityEngine.LightProbeGroup" preserve="nothing"/>
 		<type fullname="UnityEngine.LightingSettings" preserve="nothing"/>
 		<type fullname="UnityEngine.RenderSettings" preserve="nothing"/>
-		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
 		<type fullname="UnityEngine.VFX.VisualEffectObject" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp-firstpass">
 		<type fullname="FMODUnity.Settings" preserve="nothing"/>
+		<type fullname="FMODUnity.StudioListener" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="AIVehicleController" preserve="nothing"/>
 		<type fullname="Actor" preserve="nothing"/>
+		<type fullname="ActorMotor" preserve="nothing"/>
+		<type fullname="BalloonComponent" preserve="nothing"/>
+		<type fullname="BalloonModelComponent" preserve="nothing"/>
 		<type fullname="CameraController" preserve="nothing"/>
 		<type fullname="CustomNetworkManager" preserve="nothing"/>
+		<type fullname="DiegeticButton" preserve="nothing"/>
+		<type fullname="EnemyPatrolState" preserve="nothing"/>
 		<type fullname="IdleState" preserve="nothing"/>
 		<type fullname="InteractableController" preserve="nothing"/>
 		<type fullname="LookoutState" preserve="nothing"/>
 		<type fullname="ModelComponent" preserve="nothing"/>
 		<type fullname="MoveState" preserve="nothing"/>
 		<type fullname="PilotState" preserve="nothing"/>
+		<type fullname="PlayerAudioHandler" preserve="nothing"/>
 		<type fullname="PostProcessingController" preserve="nothing"/>
 		<type fullname="ProjectileEntity" preserve="nothing"/>
 		<type fullname="RudderComponent" preserve="nothing"/>
 		<type fullname="ShipComponent" preserve="nothing"/>
 		<type fullname="ShipComponentData" preserve="nothing"/>
+		<type fullname="SlotItem" preserve="nothing"/>
+		<type fullname="SlotItemData" preserve="nothing"/>
 		<type fullname="TurretWeaponState" preserve="nothing"/>
 		<type fullname="VehicleController" preserve="nothing"/>
 		<type fullname="WeaponComponent" preserve="nothing"/>
@@ -87,6 +94,7 @@
 		<type fullname="WeaponModelComponent" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Mirror.Components">
+		<type fullname="Mirror.NetworkAnimator" preserve="nothing"/>
 		<type fullname="Mirror.NetworkTransform" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Mirror">
